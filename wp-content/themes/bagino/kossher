@@ -1,0 +1,635 @@
+
+<!-- text -->
+get bloginfo
+
+
+
+    <?php
+$args = array(
+    'taxonomy' => 'category',
+    'hide_empty' => false,
+    'parent' => 0,
+    'exclude' => array(1),
+    'orderby' => 'count',
+    'order' => 'DESC'
+);
+
+$terms = get_terms($args);
+?>
+
+    <header id="header">
+        <div class="container d-flex ">
+
+            <div class="logo mr-auto">
+                <h1 class="text-light"><a href="index.html"><span><?= $hero_group[0]['test'] ?></span></a></h1>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="index.html"><img style="width: 100%;height:100%" src="https://uupload.ir/files/47va_ezgif.com-gif-maker.png" alt="" class="img-fluid"></a> -->
+            </div>
+
+            <nav class="nav-menu bolding d-none d-lg-block">
+                <ul>
+                  
+           <?php
+           foreach ($terms as $term):
+               $args_child = array(
+                   'taxonomy' => 'category',
+                   'hide_empty' => false,
+                   'child_of' => $term->term_id
+               );
+               $terms_child = get_terms($args_child);
+               if($terms_child) $class = 'nav-item dropdown';
+               ?>
+
+
+               <li class="<?= $class?>"><a href="#"><?= $term->name?></a>
+                   <?php
+                   if($terms_child){
+                       ?>
+                       <ul class="dropdown-menu ">
+                           <li class="dropdown-item ">
+                                <div class="row">
+                                <?php
+                                foreach ($terms_child as $term_child):
+                                    if($term_child->parent == $term->term_id) {
+                                        $position_op = get_option('taxonomy_' . $term_child->term_id,'name',true);
+                                        ?>
+                                        <div class="col-md-<?= $position_op['custom_term_meta']?>">
+                                            <h4><?= $term_child->name; ?></h4>
+                                            <ul>
+                                                <?php
+                                                $args_submenu = array(
+                                                    'taxonomy' => 'category',
+                                                    'hide_empty' => false,
+                                                    'child_of' => $term_child->term_id
+                                                );
+                                                $terms_submenu = get_terms($args_submenu);
+                                                if ($terms_submenu) {
+                                                    foreach ($terms_submenu as $sub):
+                                                        if ($sub->parent == $term_child->term_id) {
+                                                            $link = get_term_link($sub);
+                                                            ?>
+                                                           
+                                                            <li >
+                                                                <a href="<?= $link?>"><?= $sub->name ?></a>
+                                                            </li>
+                                                          
+                                                            <?php
+                                                        }
+                                                    endforeach;
+                                                }
+                                                ?>
+                                            </ul>
+                                        </div>
+                                        <?php
+                                    }
+                                       endforeach;
+                                       ?>
+                                   </div>
+                               </li>
+                        
+
+                           </ul>
+                           <?php
+                       }
+                       ?>
+
+
+                   </li>
+                   <?php
+                   $class = '';
+              endforeach;
+              ?>
+                </ul>
+            </nav>
+            <!-- .nav-menu -->
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </header>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <!-- End Header -->
+
+
+
+
+
+
+
+
+
+
+    <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- dorost -->
+
+        <nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Navbar</a>
+        <?php
+        wp_nav_menu( array(
+            'theme_location'    => 'megamenu',
+            'depth'             => 2,
+            'container'         => 'div',
+            'container_class'   => 'collapse navbar-collapse',
+            'container_id'      => 'bs-example-navbar-collapse-1',
+            'menu_class'        => 'nav navbar-nav',
+            'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+            'walker'            => new WP_Bootstrap_Navwalker(),
+        ) );
+        ?>
+    </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+    <header id="header">
+        <div class="container d-flex ">
+
+  
+
+            <nav class="main-menu  index-main-menu  bolding ">
+
+            <div class="logo mr-auto ml-3">
+                <h1 class="text-light"><a href="index.html"><span><?= $hero_group[0]['test'] ?></span></a></h1>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="index.html"><img style="width: 100%;height:100%" src="https://uupload.ir/files/47va_ezgif.com-gif-maker.png" alt="" class="img-fluid"></a> -->
+            </div>
+
+
+                             <div class="ml-auto mr-auto ">
+                                <?php
+                                $menu_args = array(
+                                    'theme_location' => 'megamenu',
+                                    'depth' => 2,
+                                );
+                                wp_nav_menu($menu_args);
+                                ?>
+                                            
+                                </div>
+
+                                <div class="ml-auto mr-3">
+                                <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+                                </div>
+                             
+                            </nav>
+            <!-- .nav-menu -->
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- header style  -->
+
+
+
+
+header .main-menu{
+    height: 100px;
+    padding: 30px 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    z-index: 10009;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .main-menu .logo img{
+    width: 140px;
+    height: auto;
+}
+header .main-menu ul li{
+    display: inline;
+    margin: 0 25px;
+    padding-bottom: 80px;
+    position: relative;
+}
+header .main-menu ul li a{
+    color: #000000;
+    font-size: 16px;
+}
+header .main-menu ul li.drop > a:after,
+header .main-menu ul li.menu-item-has-children > a:after{
+    content: " ↓";
+    font: normal normal normal 14px/1 FontAwesome;
+    color: #000000;
+    margin: 0;
+    padding: 0 5px 0 0;
+}
+header .main-menu ul li > ul{
+    display: none;
+    width: 160px;
+    background: #fff;
+    overflow: hidden;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    left: 0;
+    text-align: right;
+    z-index: 1001;
+    box-shadow:0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12) !important
+}
+header .main-menu ul li:hover > ul{
+    display: block;
+}
+header .main-menu ul li.drop > ul li a:after{
+    content: "";
+}
+header .main-menu ul li > ul li{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+header .main-menu ul li > ul li a{
+    padding: 15px 8px;
+    display: block;
+    color: #333;
+    -webkit-transition: all 250ms;
+    -moz-transition: all 250ms;
+    -ms-transition: all 250ms;
+    -o-transition: all 250ms;
+    transition: all 250ms;
+}
+header .main-menu ul li > ul li a{
+  width: 100%;
+}
+header .main-menu ul li > ul li a:hover{
+    color: #264653;
+    /* background: #f4f4f4; */
+    padding-right: 15px;
+    
+}
+
+
+
+
+header .main-menu .search{
+    position: relative;
+}
+header .main-menu .search i{
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+header .main-menu .search-box,
+.responsive-search{
+    width: 310px;
+    min-height: 70px;
+    position: absolute;
+    top: 80px;
+    right: auto;
+    left: 0;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    z-index: 99999999;
+    display: none;
+}
+.responsive-search{
+    left: 10px;
+    top: 65px;
+}
+header .main-menu .search-box:before,
+.responsive-search:before{
+    position: absolute;
+    top: -10px;
+    right: auto;
+    left: 8px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 1;
+    content: "\2666";
+}
+header .main-menu .search-box form,
+.responsive-search form{
+    display: block;
+    width: 100%;
+    color: #666c72;
+    border: 1px solid #f1f1f1;
+    font-size: 0;
+    line-height: 24px;
+}
+header .main-menu .search-box form input,
+.responsive-search input{
+    border: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 225px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+header .main-menu .search-box form button,
+.responsive-search form button{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    color: #666c72;
+}
+header .main-menu .search-box form button i,
+.responsive-search form button i{
+    color: inherit;
+    padding-top: 6px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+           <!-- <div class="image-box">
+           <?php
+                                if(has_post_thumbnail()){
+                                    $image = array(
+                                        'alt' => get_the_title(),
+                                        'title' => get_the_title(),
+                                        'class' => 'img-post'
+                                    );
+                                    the_post_thumbnail('large',$image);
+                                } else {
+                                    echo '<img src="">';
+                                }
+                                ?>
+                            </div> -->
+
+
+
+
+
+
+
+
+
+
+
+        <!-- ======= Top Bar ======= -->
+    <!-- <section id="topbar" class="d-none d-lg-block">
+        <div class="container d-flex">
+            <div class="contact-info mr-auto">
+                <ul>
+                    <li><i class="icofont-envelope"></i><a href="mailto:contact@example.com">contact@example.com</a></li>
+                    <li><i class="icofont-phone"></i> +1 5589 55488 55</li>
+                    <li><i class="icofont-clock-time icofont-flip-horizontal"></i> Mon-Fri 9am - 5pm</li>
+                </ul>
+
+            </div>
+            <div class="">
+                <a href="#" class="btn ">Get Started</a>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- ======= Header ======= -->
+
+
+
+<!-- exact url -->
+    <?php 
+
+$uri = $_SERVER['REQUEST_URI'];
+var_dump($uri);
+ ?>
+
+
+
+
+
+
+<!-- bread crump -->
+
+    <span property="itemListElement" typeof="ListItem">
+        <a property="item" typeof="WebPage" title="Go to %title%." href="%link%" class="%type%" bcn-aria-current>
+            <span property="name">%htitle%</span>
+        </a>
+        <meta property="position" content="%position%">
+    </span>
+
+
+
+
+
+
+
+
+
+    /* phone */
+ @media (max-width:720px)  { 
+    .swiper-wrapper img{
+        width:100% !important;
+        height:100px !important;
+        border-radius: 10px !important;
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .nav-inputform{
+    
+        width: 100%;
+    }
+
+    .nav-form{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right:auto;
+    }
+
+ }
+     /* desktop */
+ @media (min-width:720px)  {
+
+    .swiper-wrapper img{
+        width:300px !important;
+        height:250px !important;
+        border-radius: 10px !important;
+        display:flex;
+        justify-content: space-between;
+    }
+
+.nav-form{
+    margin-left: auto;
+    margin-right:1rem!important
+}
+
+  
+         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- comment form -->
+
+
+<div class="container-fluid text-right">
+<div class="add-comment">
+    <?php
+
+$commenter = wp_get_current_commenter();
+
+    $fields = array(
+        'author' => '<div class=""><label for="author">نام</label><input id="author" name="author" class="form-control" type="text" value=" '. esc_attr($commenter['comment_author']) .' " /></div>',
+        'email' => '<div class=""><label for="email">ایمیل</label><input id="email" name="email" class="form-control" type="email" value="'. esc_attr($commenter['comment_author_email']) .'" /></div>',
+      
+    );
+
+    $args = array(
+        'id_form' => 'custom-comments_form',
+        'class_form' => 'custom-comments-form',
+        'class_submit' => 'btn btn-primary btn-raised mt-2',
+        'label_submit' => ('ارسال نظر'),
+        'fields' => apply_filters('comment_form_default_fields',$fields),
+        'comment_field' =>  '<div><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" class="form-control bg-light"></textarea></div>',
+      
+    );
+    comment_form($args);
+    ?>
+</div>
+
+<hr>
+</div>
+<?php
+$args = array(
+    'post_id' => get_the_ID(),
+    'order' => 'DESC',
+);
+$comments = get_comments();
+
+if($comments){
+    ?>
+   
+    <div class="custom-comment">
+        <ol class="comment-list ">
+            <?php
+            foreach ($comments as $comment):
+                $avatar = get_avatar_url($comment->comment_author_email);
+                ?>
+                <div class="row pr-3">
+                    <div class="col-11 col-md-11">
+                    <li>
+                      <div class="head-comment">
+
+                          <span class="ins">  <?php echo $comment->comment_date?>  |  <?php echo $comment->comment_author;?>  </span>
+                          <!-- <span></span> -->
+                      </div>
+                      <p class="comment-text"><?php echo $comment->comment_content;?></p>
+                        </li> 
+                    </div>
+
+                    <div class="col-1 col-md-1">
+                    <img class=" comment-img" src="<?php echo esc_url($avatar);?>">
+                    </div>
+                    
+             
+                </div>
+                
+            <?php
+            endforeach;
+            ?>
+        </ol>
+    </div>
+    <?php
+}
+?>
+
+
+
+
+
+
+

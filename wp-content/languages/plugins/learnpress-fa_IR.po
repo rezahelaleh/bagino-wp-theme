@@ -1,0 +1,4328 @@
+# Translation of Plugins - LearnPress &#8211; WordPress LMS Plugin - Stable (latest release) in Persian
+# This file is distributed under the same license as the Plugins - LearnPress &#8211; WordPress LMS Plugin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-12-22 02:41:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fa\n"
+"Project-Id-Version: Plugins - LearnPress &#8211; WordPress LMS Plugin - Stable (latest release)\n"
+
+#: templates/global/no-courses-found.php:15
+msgid "No courses were found matching your selection."
+msgstr "هیچ دوره ای مطابق انتخاب شما یافت نشد."
+
+#: inc/user/class-lp-user.php:222
+msgid "Course is not enrolled"
+msgstr "دوره ثبت نام نشده"
+
+#: inc/jwt/rest-api/version1/class-lp-rest-quiz-v1-controller.php:84
+msgid "Answer this question."
+msgstr "به این سئوال پاسخ دهید."
+
+#: inc/user-item/class-lp-user-item-quiz.php:772
+msgid "Cannot check answer the question."
+msgstr "امکان بررسی پاسخ سوال وجود ندارد."
+
+#: inc/user/class-lp-user.php:310
+msgid "This course is already enrolled."
+msgstr "این دوره ثبت نام شده است."
+
+#: inc/user/class-lp-user.php:306
+msgid "Course is not purchased."
+msgstr "دوره تهیه نشده است."
+
+#: inc/user/class-lp-user.php:302
+msgid "Course is not require enrolling."
+msgstr "این دوره نیازی به ثبت نام ندارد."
+
+#: inc/user/class-lp-user.php:298
+msgid "Course is full students"
+msgstr "ظرفیت دوره تکمیل شده"
+
+#: inc/jwt/rest-api/version1/class-lp-rest-quiz-v1-controller.php:106
+msgid "Answer all question."
+msgstr "به همه سوالات پاسخ دهید."
+
+#: inc/admin/views/course/curriculum.php:14
+#: inc/admin/views/question/actions.php:12 inc/admin/views/quiz/editor.php:35
+#: inc/admin/views/quiz/question-meta.php:12
+msgid "Details"
+msgstr "جزئيات"
+
+#: inc/admin/views/course/section-item.php:27
+#: inc/admin/views/quiz/question-actions.php:31
+msgid "Edit item"
+msgstr "ویرایش این مورد"
+
+#: inc/admin/views/html-admin-notice-templates.php:61
+msgid "Dismiss"
+msgstr "رد  کردن"
+
+#: inc/custom-post-types/order.php:768
+msgid "Deleted"
+msgstr "حذف شده"
+
+#: inc/user/class-lp-user.php:527
+msgid "Please enroll course before starting quiz."
+msgstr "لطفا قبل از شروع آزمون ثبت نام کنید"
+
+#: inc/custom-post-types/course.php:586
+msgid "<strong>%d</strong> section"
+msgid_plural "<strong>%d</strong> sections"
+msgstr[0] "<strong>%d</strong> بخش"
+
+#: inc/admin/views/tools/database/html-repair-database.php:63
+msgid "Check All"
+msgstr "بررسی همه"
+
+#: inc/admin/views/tools/database/html-repair-database.php:60
+msgid "Repair now"
+msgstr "تعمیر کن"
+
+#: inc/custom-post-types/course.php:602
+msgid "<strong>%d</strong> "
+msgid_plural "<strong>%d</strong> "
+msgstr[0] "<strong>%d</strong> "
+
+#: inc/background-process/class-lp-background-query-items.php:260
+msgid "There is no item found!"
+msgstr "هیچ مورد یافت نشد!"
+
+#: inc/lp-deprecated.php:2291
+#: templates/global/become-teacher-form/form-fields.php:33
+msgid "Your message"
+msgstr "پیام شما"
+
+#: inc/emails/instructor/class-lp-email-instructor-denied.php:24
+msgid "Denied"
+msgstr "رد شده"
+
+#: inc/emails/instructor/class-lp-email-instructor-accepted.php:32
+msgid "Become an instructor accepted"
+msgstr "تبدیل شدن به مربی پذیرفته شده"
+
+#: inc/background-process/class-lp-background-query-items.php:156
+#: inc/background-process/class-lp-background-query-items.php:210
+msgid "There is no items found!"
+msgstr "هیچ موردی یافت نشد!"
+
+#: inc/admin/views/tools/subscription-button.php:19
+msgid "Sure! I want to get the latest news."
+msgstr "حتما! می‌خواهم تازه‌ترین اخبار را دریافت کنم."
+
+#: inc/admin/views/tools/subscription-button.php:15
+msgid "If you don't want to miss exclussive offers from us, join our newsletter."
+msgstr "اگر نمیخواهید پیشنهادات ویژه ما را از دست بدهید، به خبرنامه ما ملحق شوید"
+
+#: inc/admin/class-lp-admin.php:712
+msgid "Fail while joining newsletter! Please try again!"
+msgstr "عضویت در خبرنامه موفقیت آمیز نبود! لطفا مجددا تلاش کنید!"
+
+#: inc/class-lp-gdpr.php:402
+msgid "Purchased Course"
+msgstr "دوره های خریداری شده"
+
+#: inc/class-lp-gdpr.php:392
+msgid "Course Status"
+msgstr "وضعیت دوره"
+
+#: inc/class-lp-gdpr.php:388
+msgid "Finished Date"
+msgstr "تاریخ اتمام"
+
+#: inc/class-lp-gdpr.php:384
+msgid "Enrolled Date"
+msgstr "تاریخ نام‌نویسی"
+
+#: inc/class-lp-gdpr.php:396
+msgid "Course Grade"
+msgstr "نمره دوره"
+
+#: inc/class-lp-gdpr.php:458
+msgid "Grade"
+msgstr "نمره"
+
+#: inc/custom-post-types/course.php:86
+msgid "Invalid date"
+msgstr "تاریخ غیر معتبر"
+
+#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:31
+#: inc/admin/views/meta-boxes/order/exports-invoice.php:74
+#: inc/class-lp-gdpr.php:169
+msgid "Order Date"
+msgstr "تاریخ سفارش"
+
+#: inc/class-lp-gdpr.php:165
+msgid "Order ID"
+msgstr "شماره سفارش"
+
+#: inc/admin/views/backend-user-profile.php:26 inc/class-lp-gdpr.php:73
+msgid "LearnPress User Profile"
+msgstr "تنظیمات پروفایل"
+
+#: inc/class-lp-gdpr.php:65
+msgid "LearnPress Purchased Courses"
+msgstr "دوره های خریداری شده"
+
+#: inc/custom-post-types/course.php:85
+msgid "Sale end date must after sale start date"
+msgstr "تاریخ پایان فروش باید بعد از تاریخ شروع فروش باشد"
+
+#: inc/custom-post-types/course.php:84
+msgid "Sale start date must before sale end date"
+msgstr "تاریخ شروع فروش باید قبل از تاریخ پایان فروش باشد"
+
+#: inc/custom-post-types/course.php:83
+msgid "Course price must greater than the sale price"
+msgstr "قیمت دوره باید بیشتر از قیمت فروش باشد"
+
+#: inc/custom-post-types/course.php:82
+msgid "Course sale price must less than the regular price"
+msgstr "قیمت فروش دوره باید کمتر از قیمت معمول باشد"
+
+#: inc/class-lp-gdpr.php:297 inc/class-lp-gdpr.php:442
+msgid "Item Type"
+msgstr "نوع گزینه"
+
+#: inc/class-lp-gdpr.php:293 inc/class-lp-gdpr.php:438
+msgid "Item Name"
+msgstr "نام آیتم"
+
+#: inc/class-lp-gdpr.php:301 inc/class-lp-gdpr.php:446
+msgid "Item URL"
+msgstr "نشانی اینترنتی گزینه"
+
+#: inc/class-lp-gdpr.php:251 inc/class-lp-gdpr.php:380
+msgid "Course URL"
+msgstr "نشانی اینترنتی دوره"
+
+#: inc/class-lp-gdpr.php:247 inc/class-lp-gdpr.php:376
+msgid "Course Date"
+msgstr "تاریخ دوره"
+
+#: inc/class-lp-gdpr.php:243 inc/class-lp-gdpr.php:372
+msgid "Course Name"
+msgstr "نام دوره"
+
+#: inc/class-lp-gdpr.php:239 inc/class-lp-gdpr.php:368
+msgid "Course Author"
+msgstr "نویسنده دوره"
+
+#: inc/class-lp-gdpr.php:177
+msgid "Order Total"
+msgstr "مجموع سفارش"
+
+#: inc/class-lp-gdpr.php:105
+msgid "Profile Settings"
+msgstr "تنظیمات شناسه"
+
+#: inc/class-lp-gdpr.php:57
+msgid "LearnPress Orders"
+msgstr "سفارشات لرن پرس"
+
+#: inc/class-lp-gdpr.php:308 inc/class-lp-gdpr.php:473
+msgid "Course Items"
+msgstr "آیتم‌های دوره"
+
+#: inc/admin/views/meta-boxes/course/settings.php:29
+msgid "Pricing"
+msgstr "قیمت گذاری"
+
+#: inc/admin/views/tools/course/html-user-item.php:35
+msgid "Are you sure to reset progress of this item?"
+msgstr "آیا مطمئنید که پیشرفت این آیتم را تنظیم دوباره کنید؟"
+
+#: inc/admin/views/tools/course/html-user.php:12
+msgid "Reset user progress"
+msgstr "تنظیم دوباره پیشرفت کاربر"
+
+#: inc/admin/views/tools/course/html-user-item.php:14
+msgid "This action will reset progress of specific lesson or quiz."
+msgstr "این اقدام پیشرفت درس خاص یا آزمون را تنظیم دوباره میکند."
+
+#: inc/admin/views/tools/course/html-user-item.php:12
+msgid "Reset item progress for an user"
+msgstr "تنظیم دوباره پیشرفت آیتم برای یک کاربر"
+
+#: inc/admin/views/meta-boxes/course/settings.php:107
+#: assets/js/dist/admin/pages/tools.js:1150
+#: assets/src/apps/js/admin/pages/tools/reset-data/course.js:118
+msgid "Reset course progress"
+msgstr "تنظیم دوباره پیشرفت دوره"
+
+#: inc/admin/lp-admin-functions.php:456 inc/admin/lp-admin-functions.php:502
+#: inc/admin/settings/class-lp-settings-emails.php:148
+msgid "Plain Text"
+msgstr "متن ساده"
+
+#: inc/admin/class-lp-reset-data.php:103
+msgid "Item progress deleted"
+msgstr "پیشرفت مورد حذف شده است"
+
+#: inc/admin/views/course/section-item.php:37
+#: inc/admin/views/quiz/question-actions.php:41
+msgid "Move to trash"
+msgstr "انتقال به زباله‌دان"
+
+#: inc/admin/views/meta-boxes/course/settings.php:335
+msgid "No requirement enroll"
+msgstr "بدون نیاز به ثبت نام"
+
+#: inc/admin/views/meta-boxes/order/actions.php:19
+msgid "Choose an action"
+msgstr "یک عمل را انتخاب کنید"
+
+#: inc/admin/settings/class-lp-settings-courses.php:106
+msgid "Courses per page"
+msgstr "دوره ها در هر صفحه"
+
+#: inc/custom-post-types/course.php:80
+msgid "Items"
+msgstr "آیتم‌ها"
+
+#: inc/custom-post-types/course.php:77
+msgid "Do you want to remove item \"{{ITEM_NAME}}\" to trash?"
+msgstr "آیا میخواهید \"{{ITEM_NAME}}\" را به زباله‌دان منتقل کنید؟"
+
+#: inc/admin/class-lp-admin-ajax.php:438
+msgid "Ops! ID not found"
+msgstr "شناسه یافت نشد"
+
+#: inc/admin/views/tools/course/html-install-sample-data.php:24
+msgid "Course name"
+msgstr "نام دوره"
+
+#: inc/admin/class-lp-install-sample-data.php:356
+#: inc/admin/views/tools/course/html-install-sample-data.php:25
+msgid "Sample course"
+msgstr "دوره نمونه"
+
+#: inc/admin/editor/class-lp-admin-editor-quiz.php:51
+msgid "Invalid quiz"
+msgstr "آزمون نا‌معتبر"
+
+#: inc/admin/class-lp-admin-ajax.php:660 inc/admin/class-lp-admin-ajax.php:711
+#: templates/order/order-details.php:15
+msgid "Invalid order"
+msgstr "سفارش نامعتبر"
+
+#: inc/curds/class-lp-course-curd.php:143
+msgid "<p>Sorry! You don't have permission to duplicate this course</p>"
+msgstr "<p>متاسفانه شما دسترسی به تکثیر این دوره را ندارید!</p>"
+
+#: inc/emails/student/class-lp-email-enrolled-course-user.php:28
+msgid "Send this email to user when they have enrolled course."
+msgstr "ارسال این ایمیل به کاربر زمانیکه آنها در دوره‌ای ثبت نام کرده باشند."
+
+#: templates/global/form-register.php:17
+msgctxt "register-heading"
+msgid "Register"
+msgstr "ثبت‌نام"
+
+#: templates/global/form-login.php:17
+msgctxt "login-heading"
+msgid "Login"
+msgstr "ورود"
+
+#: inc/widgets/course-info.php:34
+msgid "Course Info"
+msgstr "اطلاعات دوره"
+
+#: templates/single-course/content-item/nav.php:39
+msgctxt "course-item-navigation"
+msgid "Next"
+msgstr "بعدی"
+
+#: templates/single-course/content-item/nav.php:30
+msgctxt "course-item-navigation"
+msgid "Prev"
+msgstr "قبلی"
+
+#: templates/single-course/instructor.php:23
+msgid "About the Instructor"
+msgstr "درباره مدرس"
+
+#: templates/profile/tabs/orders/list.php:24
+msgid "My Orders"
+msgstr "سفارشات من"
+
+#: templates/profile/tabs/settings/basic-information.php:135
+#: templates/profile/tabs/settings/change-password.php:59
+#: templates/profile/tabs/settings/privacy.php:51
+msgid "Save changes"
+msgstr "ذخیره تغییرات"
+
+#: inc/widgets/course-progress.php:31
+msgid "Course Progress"
+msgstr "پیشرفت دوره"
+
+#: templates/order/order-details.php:112
+msgid "Order status:"
+msgstr "وضعیت سفارش:"
+
+#: templates/emails/order-items-table.php:64
+#: templates/emails/plain/order-items-table.php:54
+msgid "Purchase Date"
+msgstr "تاریخ خرید"
+
+#: templates/content-lesson/content.php:17
+msgid "Lesson content is empty."
+msgstr "محتوای درس خالی است."
+
+#: templates/shortcode/list-courses.php:49
+#: templates/widgets/featured-courses.php:22
+#: templates/widgets/popular-courses.php:20
+#: templates/widgets/recent-courses.php:20
+msgid "No courses"
+msgstr "بدون دوره"
+
+#: templates/profile/tabs/orders/list.php:19
+msgid "No orders!"
+msgstr "بدون سفارش!"
+
+#: templates/checkout/order-comment.php:17
+msgid "Note to administrator"
+msgstr "یاداشت به مدیریت"
+
+#: templates/profile/tabs/orders/order-message.php:22
+msgid "This order is paid by %s"
+msgstr "این سفارش توسط %s پرداخت شده"
+
+#: templates/profile/tabs/orders/order-message.php:18
+msgid "This order is paid for %s"
+msgstr "این سفارش برای %s پرداخت شده"
+
+#: templates/emails/order-items-table.php:55
+#: templates/emails/plain/order-items-table.php:50
+msgid "Order summary"
+msgstr "خلاصه سفارش"
+
+#: templates/emails/order-items-table.php:76
+#: templates/emails/plain/order-items-table.php:60
+msgid "User Email"
+msgstr "ایمیل کاربر"
+
+#: templates/order/recover-form.php:21
+msgid "Recover"
+msgstr "بازیابی"
+
+#: templates/profile/tabs/courses.php:33
+msgid "Enrolled"
+msgstr "ثبت‌ نام شده"
+
+#: templates/global/form-login.php:48
+msgid "Lost your password?"
+msgstr "رمز عبور خود را فراموش کرده اید؟"
+
+#: templates/global/become-teacher-form/button.php:15
+msgid "Submitting"
+msgstr "ارسال"
+
+#: templates/profile/tabs/orders/recover-order.php:16
+msgid "If you have a valid order key you can recover it here."
+msgstr "اگر شما یک کلید معتبر سفارش دارید، اینجا می توانید آن را بازیابی کنید."
+
+#: templates/pages/profile.php:36
+msgid "This user does not public their profile."
+msgstr "این کاربر پروفالش را عمومی نکرده است."
+
+#: templates/profile/not-logged-in.php:16
+msgid "Please <a href=\"%s\">login</a> to see your profile content"
+msgstr "لطفا برای دیدن پروفایل محتوای خود <a href=\"%s\">وارد شوید</a>."
+
+#: templates/checkout/account-login.php:41 templates/global/form-login.php:40
+msgid "Remember me"
+msgstr "مرا به خاطر بسپار"
+
+#: inc/admin/views/meta-boxes/quiz/settings.php:86
+#: assets/js/dist/frontend/quiz.js:869
+#: assets/src/apps/js/frontend/quiz/components/buttons/index.js:305
+msgid "Review"
+msgstr "مرور"
+
+#: templates/profile/tabs/quizzes.php:118
+msgid "No quizzes!"
+msgstr "بدون آزمون!"
+
+#: inc/class-lp-gdpr.php:397
+msgid "Ungraded"
+msgstr "رتبه‌بندی نشده"
+
+#: inc/shortcodes/class-lp-shortcode-become-a-teacher.php:32
+msgctxt "become-teacher-form"
+msgid "login"
+msgstr "ورود؟"
+
+#: inc/lp-core-functions.php:1170
+msgid "Japanese yen "
+msgstr "ین ژاپن"
+
+#: inc/lp-core-functions.php:1167
+msgid "Iraqi dinar"
+msgstr "دینار عراق"
+
+#: inc/lp-core-functions.php:1166
+msgid "Iranian rial"
+msgstr "ریال ایران"
+
+#: inc/lp-core-functions.php:1164
+msgid "Indian rupee"
+msgstr "روپیه هندوستان"
+
+#: inc/lp-core-functions.php:1161
+msgid "Hong Kong dollar"
+msgstr "دلار هنگ‌کنگ"
+
+#: templates/checkout/account-login.php:26 templates/global/form-login.php:27
+msgid "Username or email"
+msgstr "نام‌کاربری یا ایمیل"
+
+#: inc/lp-core-functions.php:1253
+msgid "Jersey pound"
+msgstr "Jersey pound"
+
+#: inc/lp-core-functions.php:1252
+msgid "Zimbabwean dollar"
+msgstr "دلار زیمباوه"
+
+#: inc/lp-core-functions.php:1251
+msgid "Zambian kwacha"
+msgstr "Zambian kwacha"
+
+#: inc/lp-core-functions.php:1250
+msgid "Yemeni rial"
+msgstr "ریال یمن"
+
+#: inc/lp-core-functions.php:1249
+msgid "Vietnamese dong"
+msgstr "Vietnamese dong"
+
+#: inc/lp-core-functions.php:1248
+msgid "Venezuelan bolivar"
+msgstr "Venezuelan bolivar"
+
+#: inc/lp-core-functions.php:1247
+msgid "Vanuatu vatu"
+msgstr "Vanuatu vatu"
+
+#: inc/lp-core-functions.php:1246
+msgid "Uzbekistani som"
+msgstr "Uzbekistani som"
+
+#: inc/lp-core-functions.php:1245
+msgid "Uruguayan peso"
+msgstr "Uruguayan peso"
+
+#: inc/lp-core-functions.php:1244
+msgid "United Arab Emirates dirham"
+msgstr "درهم امارات"
+
+#: inc/lp-core-functions.php:1243
+msgid "Ukrainian hryvnia"
+msgstr "Ukrainian hryvnia"
+
+#: inc/lp-core-functions.php:1242
+msgid "Ugandan shilling"
+msgstr "Ugandan shilling"
+
+#: inc/lp-core-functions.php:1241
+msgid "Turkmenistani manat"
+msgstr "Turkmenistani manat"
+
+#: inc/lp-core-functions.php:1240
+msgid "Turkish lira"
+msgstr "لیر ترکیه"
+
+#: inc/lp-core-functions.php:1232
+msgid "Syrian pound"
+msgstr "Syrian pound"
+
+#: inc/lp-core-functions.php:1231
+msgid "Swedish krona"
+msgstr "Swedish krona"
+
+#: inc/lp-core-functions.php:1230
+msgid "Swazi lilangeni"
+msgstr "Swazi lilangeni"
+
+#: inc/lp-core-functions.php:1229
+msgid "Surinamese dollar"
+msgstr "Surinamese dollar"
+
+#: inc/lp-core-functions.php:1228
+msgid "Sudanese pound"
+msgstr "Sudanese pound"
+
+#: inc/lp-core-functions.php:1227
+msgid "St. Helena pound"
+msgstr "St. Helena pound"
+
+#: inc/lp-core-functions.php:1226
+msgid "Sri Lankan rupee"
+msgstr "Sri Lankan rupee"
+
+#: inc/lp-core-functions.php:1225
+msgid "South African rand"
+msgstr "South African rand"
+
+#: inc/lp-core-functions.php:1224
+msgid "Somali shilling"
+msgstr "Somali shilling"
+
+#: inc/lp-core-functions.php:1223
+msgid "Solomon Islands dollar"
+msgstr "Solomon Islands dollar"
+
+#: inc/lp-core-functions.php:1222
+msgid "Singapore dollar"
+msgstr "دلار سنگاپور"
+
+#: inc/lp-core-functions.php:1221
+msgid "Sierra Leonean leone"
+msgstr "Sierra Leonean leone"
+
+#: inc/lp-core-functions.php:1220
+msgid "Seychellois rupee"
+msgstr "Seychellois rupee"
+
+#: inc/lp-core-functions.php:1219
+msgid "Serbian dinar"
+msgstr "Serbian dinar"
+
+#: inc/lp-core-functions.php:1218
+msgid "Saudi riyal"
+msgstr "ریال عربستان"
+
+#: inc/lp-core-functions.php:1217
+msgid "São Tomé and Príncipe dobra"
+msgstr "São Tomé and Príncipe dobra"
+
+#: inc/lp-core-functions.php:1216
+msgid "Samoan tālā"
+msgstr "Samoan tālā"
+
+#: inc/lp-core-functions.php:1215
+msgid "Rwandan franc"
+msgstr "Rwandan franc"
+
+#: inc/lp-core-functions.php:1214
+msgid "Russian ruble"
+msgstr "روبل روسیه"
+
+#: inc/lp-core-functions.php:1213
+msgid "Romanian leu"
+msgstr "Romanian leu"
+
+#: inc/lp-core-functions.php:1239
+msgid "Tunisian dinar"
+msgstr "دینار تونس"
+
+#: inc/lp-core-functions.php:1238
+msgid "Trinidad and Tobago dollar"
+msgstr "Trinidad and Tobago dollar"
+
+#: inc/lp-core-functions.php:1237
+msgid "Tongan pa’anga"
+msgstr "Tongan pa’anga"
+
+#: inc/lp-core-functions.php:1236
+msgid "Thai baht "
+msgstr "Thai baht "
+
+#: inc/lp-core-functions.php:1235
+msgid "Tanzanian shilling"
+msgstr "Tanzanian shilling"
+
+#: inc/lp-core-functions.php:1234
+msgid "Tajikistani somoni"
+msgstr "Tajikistani somoni"
+
+#: inc/lp-core-functions.php:1233
+msgid "New Taiwan dollar"
+msgstr "New Taiwan dollar"
+
+#: inc/lp-core-functions.php:1205
+msgid "Pakistani rupee"
+msgstr "Pakistani rupee"
+
+#: inc/lp-core-functions.php:1204
+msgid "Omani rial"
+msgstr "ریال عمان"
+
+#: inc/lp-core-functions.php:1203
+msgid "Norwegian krone"
+msgstr "Norwegian krone"
+
+#: inc/lp-core-functions.php:1202
+msgid "Nigerian naira"
+msgstr "Nigerian naira"
+
+#: inc/lp-core-functions.php:1201
+msgid "Nicaraguan córdoba"
+msgstr "Nicaraguan córdoba"
+
+#: inc/lp-core-functions.php:1200
+msgid "Nepalese rupee"
+msgstr "Nepalese rupee"
+
+#: inc/lp-core-functions.php:1199
+msgid "Namibian dollar"
+msgstr "Namibian dollar"
+
+#: inc/lp-core-functions.php:1198
+msgid "Mozambican metical"
+msgstr "Mozambican metical"
+
+#: inc/lp-core-functions.php:1197
+msgid "Moroccan dirham"
+msgstr "Moroccan dirham"
+
+#: inc/lp-core-functions.php:1196
+msgid "Mongolian tugrik"
+msgstr "Mongolian tugrik"
+
+#: inc/lp-core-functions.php:1195
+msgid "Moldovan leu"
+msgstr "Moldovan leu"
+
+#: inc/lp-core-functions.php:1194
+msgid "Mexican peso"
+msgstr "Mexican peso"
+
+#: inc/lp-core-functions.php:1193
+msgid "Mauritian rupee"
+msgstr "Mauritian rupee"
+
+#: inc/lp-core-functions.php:1192
+msgid "Mauritanian ouguiya"
+msgstr "Mauritanian ouguiya"
+
+#: inc/lp-core-functions.php:1191
+msgid "Maldivian rufiyaa"
+msgstr "Maldivian rufiyaa"
+
+#: inc/lp-core-functions.php:1190
+msgid "Malaysian ringgit"
+msgstr "Malaysian ringgit"
+
+#: inc/lp-core-functions.php:1189
+msgid "Malawian kwacha"
+msgstr "Malawian kwacha"
+
+#: inc/lp-core-functions.php:1188
+msgid "Malagasy ariary"
+msgstr "Malagasy ariary"
+
+#: inc/lp-core-functions.php:1187
+msgid "Macedonian denar"
+msgstr "Macedonian denar"
+
+#: inc/lp-core-functions.php:1186
+msgid "Macanese pataca"
+msgstr "Macanese pataca"
+
+#: inc/lp-core-functions.php:1212
+msgid "Qatari riyal"
+msgstr "ریال قطر"
+
+#: inc/lp-core-functions.php:1211
+msgid "Polish zloty"
+msgstr "Polish zloty"
+
+#: inc/lp-core-functions.php:1210
+msgid "Philippine peso"
+msgstr "Philippine peso"
+
+#: inc/lp-core-functions.php:1209
+msgid "Peruvian nuevo sol"
+msgstr "Peruvian nuevo sol"
+
+#: inc/lp-core-functions.php:1208
+msgid "Paraguayan guarani"
+msgstr "Paraguayan guarani"
+
+#: inc/lp-core-functions.php:1207
+msgid "Papua New Guinea kina"
+msgstr "Papua New Guinea kina"
+
+#: inc/lp-core-functions.php:1206
+msgid "Panamanian balboa"
+msgstr "Panamanian balboa"
+
+#: inc/lp-core-functions.php:1178
+msgid "Lao kip"
+msgstr "Lao kip"
+
+#: inc/lp-core-functions.php:1177
+msgid "South Korean won"
+msgstr "ون کره‌ جنوبی"
+
+#: inc/lp-core-functions.php:1176
+msgid "Kyrgyzstani som"
+msgstr "Kyrgyzstani som"
+
+#: inc/lp-core-functions.php:1175
+msgid "Kuwaiti dinar"
+msgstr "دینار کویت"
+
+#: inc/lp-core-functions.php:1174
+msgid "North Korean won"
+msgstr "ون کره شمالی"
+
+#: inc/lp-core-functions.php:1173
+msgid "Kenyan shilling"
+msgstr "Kenyan shilling"
+
+#: inc/lp-core-functions.php:1172
+msgid "Kazakhstani tenge"
+msgstr "Kazakhstani tenge"
+
+#: inc/lp-core-functions.php:1171
+msgid "Jordanian dinar"
+msgstr "دینار اردن"
+
+#: inc/lp-core-functions.php:1169
+msgid "Jamaican dollar"
+msgstr "Jamaican dollar"
+
+#: inc/lp-core-functions.php:1168
+msgid "Israeli new sheqel"
+msgstr "Israeli new sheqel"
+
+#: inc/lp-core-functions.php:1165
+msgid "Indonesian rupiah"
+msgstr "Indonesian rupiah"
+
+#: inc/lp-core-functions.php:1163
+msgid "Icelandic króna"
+msgstr "Icelandic króna"
+
+#: inc/lp-core-functions.php:1162
+msgid "Hungarian forint"
+msgstr "Hungarian forint"
+
+#: inc/lp-core-functions.php:1160
+msgid "Honduran lempira"
+msgstr "Honduran lempira"
+
+#: inc/lp-core-functions.php:1159
+msgid "Haitian gourde"
+msgstr "Haitian gourde"
+
+#: inc/lp-core-functions.php:1158
+msgid "Guyanese dollar"
+msgstr "Guyanese dollar"
+
+#: inc/lp-core-functions.php:1157
+msgid "Guinean franc"
+msgstr "Guinean franc"
+
+#: inc/lp-core-functions.php:1156
+msgid "British pound"
+msgstr "پوند انگلیس"
+
+#: inc/lp-core-functions.php:1155
+msgid "Guatemalan quetzal"
+msgstr "Guatemalan quetzal"
+
+#: inc/lp-core-functions.php:1154
+msgid "Gibraltar pound"
+msgstr "Gibraltar pound"
+
+#: inc/lp-core-functions.php:1185
+msgid "Lithuanian litas"
+msgstr "Lithuanian litas"
+
+#: inc/lp-core-functions.php:1184
+msgid "Swiss franc"
+msgstr "فرانک سوئیس"
+
+#: inc/lp-core-functions.php:1183 inc/lp-core-functions.php:1254
+msgid "Libyan dinar"
+msgstr "Libyan dinar"
+
+#: inc/lp-core-functions.php:1182
+msgid "Liberian dollar"
+msgstr "Liberian dollar"
+
+#: inc/lp-core-functions.php:1181
+msgid "Lesotho loti"
+msgstr "Lesotho loti"
+
+#: inc/lp-core-functions.php:1180
+msgid "Lebanese pound"
+msgstr "Lebanese pound"
+
+#: inc/lp-core-functions.php:1179
+msgid "Latvian lats"
+msgstr "Latvian lats"
+
+#: inc/lp-core-functions.php:1146
+msgid "Eritrean nakfa"
+msgstr "Eritrean nakfa"
+
+#: inc/lp-core-functions.php:1145
+msgid "Salvadoran colón"
+msgstr "Salvadoran colón"
+
+#: inc/lp-core-functions.php:1153
+msgid "Ghanian cedi"
+msgstr "Ghanian cedi"
+
+#: inc/lp-core-functions.php:1152
+msgid "Georgian lari"
+msgstr "لاری گرجستان"
+
+#: inc/lp-core-functions.php:1151
+msgid "Gambian dalasi"
+msgstr "Gambian dalasi"
+
+#: inc/lp-core-functions.php:1150
+msgid "CFP franc"
+msgstr "CFP franc"
+
+#: inc/lp-core-functions.php:1149
+msgid "Fijian dollar"
+msgstr "Fijian dollar"
+
+#: inc/lp-core-functions.php:1148
+msgid "Falkland Islands pound"
+msgstr "Falkland Islands pound"
+
+#: inc/lp-core-functions.php:1147
+msgid "Ethiopian birr"
+msgstr "Ethiopian birr"
+
+#: inc/shortcodes/class-lp-shortcode-become-a-teacher.php:37
+msgid "You are a teacher!"
+msgstr "شما یک مدرس هستید!"
+
+#: inc/order/class-lp-order.php:456
+msgid "%s (Guest)"
+msgstr "%s (میهمان)"
+
+#: inc/custom-post-types/question.php:164 inc/custom-post-types/quiz.php:171
+msgid "New Option"
+msgstr "گزینه جدید"
+
+#: inc/question/class-lp-question.php:617
+msgid "First option"
+msgstr "گزینه اول"
+
+#: inc/question/class-lp-question.php:623
+msgid "Second option"
+msgstr "گزینه دوم"
+
+#: inc/question/class-lp-question.php:629
+msgid "Third option"
+msgstr "گزینه سوم"
+
+#: inc/user/class-lp-user.php:384
+msgid "Your order is waiting for processing"
+msgstr "سفارش شما در انتظار برای پردازش است"
+
+#: inc/user/class-lp-profile.php:872
+msgid "Not enrolled"
+msgstr "ثبت نام نشده"
+
+#: inc/user/class-lp-user.php:609
+msgid "User has completed quiz"
+msgstr "کاربر آزمون را تکمیل کرد"
+
+#: inc/user/class-lp-user.php:545
+msgid "You have to login for starting quiz."
+msgstr "شما برای شروع آزمون باید وارد شوید."
+
+#: inc/user/class-lp-user.php:536
+msgid "User has started or completed quiz"
+msgstr "کاربر آزمون را شروع کرده یا به پایان رسانده است."
+
+#: inc/quiz/class-lp-quiz.php:586
+msgid "Time's up!"
+msgstr "زمان به پایان رسیده است!"
+
+#: inc/lp-deprecated.php:2219 inc/templates/class-lp-template-general.php:80
+msgid "Fill out the form and send us your requesting."
+msgstr "فرم را پر کنید و درخواست خود را برای ما ارسال کنید."
+
+#: inc/lp-core-functions.php:2774
+msgctxt "static-page-name"
+msgid "Courses"
+msgstr "دوره‌ها"
+
+#: inc/user/class-lp-profile.php:80
+msgid "Account avatar updated successful."
+msgstr "نماد حساب کاربری با موفقیت موفق بروز شد."
+
+#: inc/user/class-lp-profile.php:79
+msgid "Account information updated successful."
+msgstr "اطلاعات حساب کاربری با موفقیت بروز شد."
+
+#: inc/user/class-lp-profile.php:81
+msgid "Password updated successful."
+msgstr "رمزعبور با موفقیت بروز شد."
+
+#: inc/lp-deprecated.php:374
+msgid "Owned"
+msgstr "مالک"
+
+#: inc/user/class-lp-user.php:519
+msgid "You have already finished the course of this quiz"
+msgstr "شما قبلا دوره این آزمون را به پایان رسانده است"
+
+#: inc/lp-core-functions.php:1117
+msgid "US dollar"
+msgstr "دلار آمریکا"
+
+#: inc/lp-core-functions.php:1116
+msgid "Bolivian boliviano"
+msgstr "Bolivian boliviano"
+
+#: inc/lp-core-functions.php:1115
+msgid "Bhutanese ngultrum"
+msgstr "Bhutanese ngultrum"
+
+#: inc/lp-core-functions.php:1114
+msgid "Bermudian dollar"
+msgstr "Bermudian dollar"
+
+#: inc/lp-core-functions.php:1113
+msgid "West African CFA franc"
+msgstr "West African CFA franc"
+
+#: inc/lp-core-functions.php:1112
+msgid "Belizean dollar"
+msgstr "Belizean dollar"
+
+#: inc/lp-core-functions.php:1111
+msgid "Belarusian ruble"
+msgstr "Belarusian ruble"
+
+#: inc/lp-core-functions.php:1110
+msgid "Barbadian dollar"
+msgstr "Barbadian dollar"
+
+#: inc/lp-core-functions.php:1109
+msgid "Bangladeshi taka"
+msgstr "Bangladeshi taka"
+
+#: inc/lp-core-functions.php:1108
+msgid "Bahraini dinar"
+msgstr "دینار بحرین"
+
+#: inc/lp-core-functions.php:1107
+msgid "Bahamian dollar"
+msgstr "Bahamian dollar"
+
+#: inc/lp-core-functions.php:1106
+msgid "Azerbaijani manat"
+msgstr "منات آذربایجان"
+
+#: inc/lp-core-functions.php:1105
+msgid "Australian dollar"
+msgstr "دلار استرالیا"
+
+#: inc/lp-core-functions.php:1104
+msgid "Aruban florin"
+msgstr "Aruban florin"
+
+#: inc/lp-core-functions.php:1103
+msgid "Armenian dram"
+msgstr "درام ارمنستان"
+
+#: inc/lp-core-functions.php:1102
+msgid "Argentine peso"
+msgstr "Argentine peso"
+
+#: inc/lp-core-functions.php:1101
+msgid "East Caribbean dollar"
+msgstr "East Caribbean dollar"
+
+#: inc/lp-core-functions.php:1100
+msgid "Angolan kwanza"
+msgstr "Angolan kwanza"
+
+#: inc/lp-core-functions.php:1099
+msgid "Euro"
+msgstr "یورو"
+
+#: inc/lp-core-functions.php:1098
+msgid "Algerian dinar"
+msgstr "Algerian dinar"
+
+#: inc/lp-core-functions.php:1096
+msgid "Afghan afghani"
+msgstr "Afghan afghani"
+
+#: inc/lp-core-functions.php:1097
+msgid "Albanian lek"
+msgstr "Albanian lek"
+
+#: inc/lp-core-functions.php:1144
+msgid "Egyptian pound"
+msgstr "Egyptian pound"
+
+#: inc/lp-core-functions.php:1143
+msgid "Dominican peso"
+msgstr "Dominican peso"
+
+#: inc/lp-core-functions.php:1142
+msgid "Djiboutian franc"
+msgstr "Djiboutian franc"
+
+#: inc/lp-core-functions.php:1141
+msgid "Danish krone"
+msgstr "کرون دانمارک"
+
+#: inc/lp-core-functions.php:1140
+msgid "Czech koruna"
+msgstr "Czech koruna"
+
+#: inc/lp-core-functions.php:1139
+msgid "Netherlands Antilles guilder"
+msgstr "Netherlands Antilles guilder"
+
+#: inc/lp-core-functions.php:1138
+msgid "Cuban peso"
+msgstr "Cuban peso"
+
+#: inc/lp-core-functions.php:1137
+msgid "Croatian kuna"
+msgstr "Croatian kuna"
+
+#: inc/lp-core-functions.php:1136
+msgid "Costa Rican colón"
+msgstr "Costa Rican colón"
+
+#: inc/lp-core-functions.php:1135
+msgid "New Zealand dollar"
+msgstr "New Zealand dollar"
+
+#: inc/lp-core-functions.php:1134
+msgid "Congolese franc"
+msgstr "Congolese franc"
+
+#: inc/lp-core-functions.php:1133
+msgid "Comorian franc"
+msgstr "Comorian franc"
+
+#: inc/lp-core-functions.php:1132
+msgid "Colombian peso"
+msgstr "Colombian peso"
+
+#: inc/lp-core-functions.php:1131
+msgid "Chinese renminbi"
+msgstr "Chinese renminbi"
+
+#: inc/lp-core-functions.php:1130
+msgid "Chilean peso"
+msgstr "Chilean peso"
+
+#: inc/lp-core-functions.php:1125
+msgid "Cambodian riel"
+msgstr "Cambodian riel"
+
+#: inc/lp-core-functions.php:1124
+msgid "Burundian franc"
+msgstr "Burundian franc"
+
+#: inc/lp-core-functions.php:1123
+msgid "Burmese kyat"
+msgstr "Burmese kyat"
+
+#: inc/lp-core-functions.php:1122
+msgid "Bulgarian lev"
+msgstr "Bulgarian lev"
+
+#: inc/lp-core-functions.php:1121
+msgid "Brunei dollar"
+msgstr "Brunei dollar"
+
+#: inc/lp-core-functions.php:1120
+msgid "Brazilian real"
+msgstr "Brazilian real"
+
+#: inc/lp-core-functions.php:1119
+msgid "Botswana pula"
+msgstr "Botswana pula"
+
+#: inc/lp-core-functions.php:1118
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr "Bosnia and Herzegovina convertible mark"
+
+#: inc/lp-core-functions.php:1129
+msgid "Cayman Islands dollar"
+msgstr "Cayman Islands dollar"
+
+#: inc/lp-core-functions.php:1128
+msgid "Cape Verdean escudo"
+msgstr "Cape Verdean escudo"
+
+#: inc/lp-core-functions.php:1127
+msgid "Canadian dollar"
+msgstr "دلار کانادا"
+
+#: inc/lp-core-functions.php:1126
+msgid "Central African CFA franc"
+msgstr "Central African CFA franc"
+
+#: inc/gateways/paypal/class-lp-gateway-paypal.php:92
+msgid "Make payment via Paypal."
+msgstr "پرداخت از طریق پی‌پال"
+
+#: inc/emails/admin/class-lp-email-cancelled-order-admin.php:25
+#: inc/emails/admin/class-lp-email-completed-order-admin.php:26
+#: inc/emails/admin/class-lp-email-enrolled-course-admin.php:28
+#: inc/emails/admin/class-lp-email-finished-course-admin.php:26
+#: inc/emails/admin/class-lp-email-new-order-admin.php:25
+msgid "Admin"
+msgstr "مدیر"
+
+#: inc/custom-post-types/order.php:710 inc/order/class-lp-order.php:458
+msgid "(Guest)"
+msgstr "(میهمان)"
+
+#: inc/emails/admin/class-lp-email-new-order-admin.php:29
+#: inc/emails/instructor/class-lp-email-new-order-instructor.php:25
+msgid "New user order"
+msgstr "سفارش کاربر جدید"
+
+#: inc/emails/admin/class-lp-email-become-an-instructor.php:25
+msgid "Become an instructor email."
+msgstr "ایمیل تبدیل به یک مدرس شوید"
+
+#: inc/emails/admin/class-lp-email-become-an-instructor.php:27
+msgid "[{{site_title}}] Request to become an instructor"
+msgstr "[{{site_title}}] درخواست تبدیل شدن به یک مدرس"
+
+#: inc/emails/guest/class-lp-email-new-order-guest.php:29
+#: inc/emails/guest/class-lp-email-processing-order-guest.php:26
+#: inc/emails/student/class-lp-email-new-order-user.php:29
+#: inc/emails/student/class-lp-email-processing-order-user.php:26
+msgid "Thank you for your order"
+msgstr "از شما بخاطر سفارشتان متشکریم"
+
+#: inc/emails/guest/class-lp-email-new-order-guest.php:28
+#: inc/emails/guest/class-lp-email-processing-order-guest.php:25
+#: inc/emails/student/class-lp-email-new-order-user.php:28
+#: inc/emails/student/class-lp-email-processing-order-user.php:25
+msgid "Your order placed on {{order_date}}"
+msgstr "شفارش شما در {{order_date}} انجام شده است"
+
+#: inc/emails/admin/class-lp-email-finished-course-admin.php:29
+#: inc/emails/instructor/class-lp-email-finished-course-instructor.php:29
+msgid "User has finished course"
+msgstr "کاربر دوره را تمام کرده است"
+
+#: inc/emails/student/class-lp-email-finished-course-user.php:29
+msgid "[{{site_title}}] You have finished course"
+msgstr "[{{site_title}}] شما دوره را تمام کرده اید"
+
+#: inc/emails/guest/class-lp-email-completed-order-guest.php:33
+#: inc/emails/student/class-lp-email-completed-order-user.php:36
+msgid "Your order has completed"
+msgstr "سفارش شما کامل شده است"
+
+#: inc/emails/guest/class-lp-email-completed-order-guest.php:32
+#: inc/emails/student/class-lp-email-completed-order-user.php:35
+msgid "Your order on {{order_date}} has completed"
+msgstr "سفارش شما در {{order_date}} کامل شده است"
+
+#: inc/emails/admin/class-lp-email-become-an-instructor.php:24
+msgid "Request"
+msgstr "درخواست"
+
+#: inc/custom-post-types/quiz.php:286
+#: inc/templates/class-lp-template-course.php:115
+#: inc/templates/class-lp-template-course.php:120
+msgid "%d question"
+msgid_plural "%d questions"
+msgstr[0] "%d سوال"
+
+#: inc/emails/instructor/class-lp-email-instructor-accepted.php:28
+msgid "Accepted"
+msgstr "پذیرفته شده"
+
+#: inc/emails/student/class-lp-email-finished-course-user.php:30
+msgid "You have finished course"
+msgstr "شما دوره را تمام کرده اید"
+
+#: inc/emails/admin/class-lp-email-enrolled-course-admin.php:31
+#: inc/emails/instructor/class-lp-email-enrolled-course-instructor.php:29
+msgid "User has enrolled course"
+msgstr "کاربر دوره را ثبت نام کرده است"
+
+#: inc/emails/admin/class-lp-email-enrolled-course-admin.php:30
+#: inc/emails/instructor/class-lp-email-enrolled-course-instructor.php:28
+msgid "{{user_display_name}} has enrolled course"
+msgstr "{{user_display_name}} دوره را ثبت نام کرده است"
+
+#: inc/emails/guest/class-lp-email-cancelled-order-guest.php:29
+#: inc/emails/student/class-lp-email-cancelled-order-user.php:29
+msgid "Your order has been cancelled"
+msgstr "سفارش شما لغو شده است"
+
+#: inc/emails/admin/class-lp-email-cancelled-order-admin.php:28
+#: inc/emails/instructor/class-lp-email-cancelled-order-instructor.php:29
+msgid "User order has been cancelled"
+msgstr "سفارش کاربر لغو شده است"
+
+#: inc/emails/admin/class-lp-email-cancelled-order-admin.php:26
+msgid "Send email to admin when order has been cancelled."
+msgstr "ارسال ایمیل به مدیر زمانی که سفارش لغو شده است."
+
+#: inc/custom-post-types/lesson.php:316 inc/custom-post-types/question.php:493
+#: inc/custom-post-types/quiz.php:431
+msgid "Assigned"
+msgstr "اختصاص داده شده"
+
+#: inc/emails/student/class-lp-email-enrolled-course-user.php:31
+msgid "You have enrolled course"
+msgstr "شما دوره را ثبت نام کرده اید"
+
+#: inc/custom-post-types/order.php:784 templates/checkout/order-received.php:88
+msgid "(No item)"
+msgstr "(بدون آیتم)"
+
+#: inc/curds/class-lp-quiz-curd.php:29
+msgid "Quiz does not exist."
+msgstr "آزمون وجود ندارد"
+
+#: inc/curds/class-lp-question-curd.php:154
+msgid "<p>Op! The question does not exist</p>"
+msgstr "<p>اوه! سوال وجود ندارد</p>"
+
+#: inc/curds/class-lp-question-curd.php:28
+msgid "Question does not exist."
+msgstr "سوال وجود ندارد."
+
+#: inc/curds/class-lp-lesson-curd.php:108
+msgid "<p>Op! The lesson does not exist</p>"
+msgstr "<p>اوه! درس وجود ندارد</p>"
+
+#: inc/curds/class-lp-course-curd.php:133
+#: inc/curds/class-lp-lesson-curd.php:104
+#: inc/curds/class-lp-question-curd.php:150
+#: inc/curds/class-lp-quiz-curd.php:156
+msgid "<p>Op! ID not found</p>"
+msgstr "<p>اوه! شناسه یافت نشد</p>"
+
+#: inc/curds/class-lp-course-curd.php:27
+msgid "Course does not exist."
+msgstr "دوره وجود ندارد"
+
+#: inc/curds/class-lp-quiz-curd.php:160
+msgid "<p>Op! The quiz does not exist</p>"
+msgstr "<p>اوه! آزمون وجود ندارد</p>"
+
+#: inc/curds/class-lp-user-item-curd.php:21
+msgid "Quiz does not exists."
+msgstr "آزمون وجود ندارد"
+
+#: inc/curds/class-lp-user-curd.php:2047 inc/user/class-lp-user.php:736
+msgid "quiz"
+msgstr "آزمون"
+
+#: inc/curds/class-lp-user-curd.php:2048 inc/user/class-lp-user.php:737
+msgid "quizzes"
+msgstr "آزمون‌ها"
+
+#: inc/curds/class-lp-user-item-curd.php:35
+msgid "Invalid quiz."
+msgstr "آزمون نامعتبر."
+
+#: inc/templates/class-lp-template-course.php:879
+msgid "%d quiz"
+msgid_plural "%d quizzes"
+msgstr[0] "%d آزمون"
+
+#: inc/class-lp-forms-handler.php:37 inc/class-lp-forms-handler.php:221
+#: inc/curds/class-lp-user-curd.php:2116
+msgid "Please provide a valid email address."
+msgstr "لطفا یک آدرس ایمیل معتبر ارائه کنید."
+
+#: inc/curds/class-lp-lesson-curd.php:35
+msgid "New Lesson"
+msgstr "درس جدید"
+
+#: inc/lp-core-functions.php:3488
+msgid "Evaluate via lessons"
+msgstr "ارزیابی از طریق درس‌ها"
+
+#: inc/admin/views/meta-boxes/course/settings.php:14
+msgid "Course Settings"
+msgstr "تنظیمات دوره"
+
+#: inc/curds/class-lp-order-curd.php:500
+msgid "Order is already assigned."
+msgstr "سفارش قبلا اختصاص داده شده است."
+
+#: inc/custom-post-types/course.php:74
+msgid "Create a new"
+msgstr "ایجاد جدید"
+
+#: inc/curds/class-lp-user-curd.php:2142
+msgid "Failed to create user"
+msgstr "ایجاد کاربر ناموفق بود"
+
+#: inc/class-lp-forms-handler.php:44
+msgid "Your email does not exist!"
+msgstr "ایمیل شما وجود ندارد!"
+
+#: inc/class-lp-checkout.php:650
+msgid "No payment method is selected"
+msgstr "هیچ روش پرداختی انتخاب نشده است"
+
+#: inc/admin/views/updates/html-upgrade-message-3.0.0.php:24
+msgid "Got it!"
+msgstr "متوجه شدم!"
+
+#: inc/class-lp-forms-handler.php:247
+msgid "Password is too short!"
+msgstr "رمزعبور خیلی کوتاه است‌!"
+
+#: inc/admin/views/updates/html-upgrade-message-3.0.0.php:14
+msgid "Welcome to LearnPress %s"
+msgstr "به لرن‌پرس %s خوش آمدید"
+
+#: inc/class-lp-forms-handler.php:52
+msgid "Thank you! Your message has been sent."
+msgstr "متشکرم! پیام شما فرستاده شده است."
+
+#: inc/class-lp-checkout.php:454
+msgid "Unable to checkout. Order creation failed."
+msgstr "قادر به پرداخت نیست سفارش ایجاد نشد"
+
+#: inc/admin/views/tools/course/html-user.php:64
+msgid "No user found."
+msgstr "هیچ کاربری یافت نشد."
+
+#: inc/admin/views/tools/course/html-install-sample-data.php:59
+#: inc/admin/views/tools/course/html-install-sample-data.php:60
+msgid "Delete sample course"
+msgstr "حذف دوره نمونه"
+
+#: inc/admin/views/setup/steps/pages.php:50
+msgid "Page will display the form for submitting request to become a teacher."
+msgstr "صفحه فرم ارسال  درخواست برای تبدیل شدن به یک مدرس را نمایش می‌دهد."
+
+#: inc/admin/views/tools/course/html-install-sample-data.php:55
+#: inc/admin/views/tools/course/html-install-sample-data.php:56
+msgid "Install"
+msgstr "نصب"
+
+#: inc/admin/views/tools/course/html-install-sample-data.php:55
+msgid "Installing..."
+msgstr "درحال نصب..."
+
+#: inc/admin/views/tools/course/html-install-sample-data.php:59
+msgid "Deleting..."
+msgstr "درحال حذف..."
+
+#: inc/admin/views/tools/course/html-install-sample-data.php:17
+msgid "Install Sample Data"
+msgstr "نصب اطلاعات نمونه"
+
+#: inc/admin/views/tools/html-cache.php:25
+#: inc/admin/views/tools/html-cache.php:28
+msgid "Clear cache"
+msgstr "پاکسازی کش"
+
+#: inc/admin/views/tools/course/html-user-item.php:18
+msgid "User ID or Email"
+msgstr "شناسه کاربری یا ایمیل"
+
+#: inc/admin/views/question/fib-answer-editor.php:23
+#: inc/admin/views/tools/course/html-install-sample-data.php:20
+msgid "Options"
+msgstr "گزینه‌ها"
+
+#: inc/admin/views/tools/course/html-install-sample-data.php:58
+msgid "Show options"
+msgstr "نمایش گزینه‌ها"
+
+#: inc/admin/views/setup/steps/welcome.php:12
+msgid "Welcome to LearnPress"
+msgstr "به لرن پرس خوش آمدید"
+
+#: inc/admin/views/setup/steps/emails.php:12
+msgid "Emails system"
+msgstr "سیستم ایمیل"
+
+#: inc/admin/views/setup/notice-setup.php:5
+msgid "Skip"
+msgstr "نادیده بگیر"
+
+#: inc/admin/views/setup/setup-stripe.php:24
+msgid "Test mode"
+msgstr "حالت آزمایش"
+
+#: inc/admin/views/setup/setup-stripe.php:28
+msgid "Test secret key"
+msgstr "تست کلید مخفی"
+
+#: inc/admin/views/setup/steps/emails.php:22
+msgid "Enable emails"
+msgstr "فعالسازی ایمیلها"
+
+#: inc/admin/views/meta-boxes/order/details.php:117
+msgid "- Or -"
+msgstr "- یا -"
+
+#: inc/admin/views/meta-boxes/order/details.php:112
+#: inc/admin/views/meta-boxes/order/details.php:231
+msgid "Change"
+msgstr "تغییر"
+
+#: inc/admin/settings/email-groups/class-lp-settings-completed-order-emails.php:23
+msgid "Completed Order"
+msgstr "سفارش تکمیل شده"
+
+#: inc/admin/settings/class-lp-settings-profile.php:174
+#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:60
+#: inc/admin/views/meta-boxes/order/details.php:40
+#: inc/user/class-lp-profile.php:267
+msgid "Order details"
+msgstr "جزئیات سفارش"
+
+#: inc/admin/views/course/pagination.php:20
+#: inc/admin/views/quiz/pagination.php:18
+msgctxt "page-navigation"
+msgid "Next"
+msgstr "بعدی"
+
+#: inc/admin/views/course/pagination.php:18
+#: inc/admin/views/quiz/pagination.php:16
+msgctxt "page-navigation"
+msgid "Previous"
+msgstr "قبلی"
+
+#: inc/admin/views/addons/html-loop-plugin.php:47
+msgid "Version: "
+msgstr "نگارش:"
+
+#: inc/admin/settings/class-lp-settings-profile.php:77
+msgid "Enable register form"
+msgstr "فعال‌سازی فرم عضویت"
+
+#: inc/admin/settings/email-groups/class-lp-settings-become-teacher-emails.php:23
+msgid "Become an Instructor"
+msgstr "تبدیل به یک مدرس شوید"
+
+#: inc/admin/sub-menus/class-lp-submenu-addons.php:27
+msgid "Themes (%d)"
+msgstr "پوسته‌ها (%d)"
+
+#: inc/admin/sub-menus/class-lp-submenu-addons.php:25
+msgid "Get more (%d)"
+msgstr "دریافت بیشتر (%d)"
+
+#: inc/admin/sub-menus/class-lp-submenu-addons.php:26
+msgid "Installed (%d)"
+msgstr "نصب‌ شده (%d)"
+
+#: inc/admin/views/addons/html-plugins-installed.php:25
+msgid "Installed add-ons"
+msgstr "افزودنی‌های نصب شده"
+
+#: inc/admin/views/quiz/question-actions.php:38
+msgid "Remove from quiz"
+msgstr "حذف از آزمون"
+
+#: inc/admin/views/quiz/editor.php:64
+msgid "Create a new question"
+msgstr "ایجاد سوال جدید"
+
+#: inc/admin/views/quiz/editor.php:49
+#: inc/admin/views/tools/course/html-user.php:31
+#: templates/profile/tabs/orders/list.php:33
+msgid "Actions"
+msgstr "اقدامات"
+
+#: inc/admin/views/course/section.php:49
+msgid "Are you sure?"
+msgstr "آیا مطمئنید؟"
+
+#: inc/admin/views/course/section.php:45 inc/admin/views/quiz/editor.php:79
+msgid "Select items"
+msgstr "موارد را انتخاب کنید"
+
+#: inc/admin/sub-menus/class-lp-submenu-statistics.php:16
+msgid "LearnPress Statistics"
+msgstr "آمارهای لرن پرس"
+
+#: inc/admin/settings/email-groups/class-lp-settings-finished-course-emails.php:28
+msgid "Finished Course"
+msgstr "دوره پایان یافته"
+
+#: inc/admin/settings/email-groups/class-lp-settings-course-review-emails.php:23
+msgid "Review Course"
+msgstr "مرور دوره"
+
+#: inc/admin/settings/email-groups/class-lp-settings-cancelled-order-emails.php:24
+msgid "Cancelled Order"
+msgstr "سفارش لغو شده است"
+
+#: inc/admin/settings/class-lp-settings-emails.php:138
+msgid "Email template"
+msgstr "قالب ایمیل"
+
+#: inc/admin/settings/class-lp-settings-payments.php:85
+msgid "Enable guest checkout"
+msgstr "فعالسازی پرداخت میهمان"
+
+#: inc/admin/settings/class-lp-settings-general.php:87
+msgid "Setting up your currency unit and its formatting."
+msgstr "تنظیم واحد پولی شما و قالب‌بندی آن."
+
+#: inc/admin/settings/class-lp-settings-profile.php:70
+msgid "Enable login form"
+msgstr "فعالسازی فرم ورود"
+
+#: inc/admin/settings/class-lp-settings-profile.php:74
+msgid "Enable login from profile if the user is not logged in."
+msgstr "فعالسازی ورود از شناسنامه اگر کاربر وارد نشده است."
+
+#: inc/admin/settings/class-lp-settings-profile.php:81
+msgid "Enable register from profile if the user is not logged in."
+msgstr "فعالسازی ثبت نام از شناسنامه اگر کاربر وارد نشده است."
+
+#: inc/admin/views/addons/html-themes.php:25
+msgid "No related themes."
+msgstr "پوسته‌های بدون مرتبط"
+
+#: inc/admin/views/course/modal-choose-items.php:54
+#: inc/admin/views/quiz/modal-choose-items.php:52
+#: inc/custom-post-types/course.php:76 inc/custom-post-types/quiz.php:170
+msgid "Selected items"
+msgstr "موارد انتخاب شده"
+
+#: inc/admin/views/course/modal-choose-items.php:76
+#: inc/admin/views/quiz/modal-choose-items.php:69
+msgid "No item found."
+msgstr "موردی یافت نشد."
+
+#: inc/admin/views/course/modal-choose-items.php:93
+#: inc/admin/views/quiz/modal-choose-items.php:84
+msgid "Adding"
+msgstr "افزودن"
+
+#: inc/admin/views/course/section-item.php:34
+msgid "Remove from course"
+msgstr "حذف از دوره"
+
+#: inc/admin/views/meta-boxes/order/details.php:88
+#: inc/admin/views/meta-boxes/order/details.php:118
+#: inc/admin/views/meta-boxes/order/details.php:239
+msgid "Add multi users"
+msgstr "افزودن چند کاربر"
+
+#: inc/admin/views/meta-boxes/order/child-order.php:22
+#: templates/order/recover-form.php:18
+msgid "Order key"
+msgstr "کلید سفارش"
+
+#: inc/admin/views/quiz/editor.php:93
+msgid "Something went wrong! Please reload to continue editing quiz questions."
+msgstr "خطایی رخ داده! لطفا برای ادامه ویرایش سوالات آزمون بارگذاری مجدد کنید."
+
+#: inc/admin/editor/class-lp-admin-editor-question.php:113
+#: inc/curds/class-lp-question-curd.php:48
+msgid "New Question"
+msgstr "سوال جدید"
+
+#: inc/admin/editor/class-lp-admin-editor-course.php:77
+#: inc/curds/class-lp-course-curd.php:46
+msgid "New Course"
+msgstr "دوره جدید"
+
+#: inc/admin/class-lp-admin.php:210
+msgid "Cart Page"
+msgstr "برگه سبد‌خرید"
+
+#: inc/admin/class-lp-admin.php:206
+msgid "Shop Page"
+msgstr "برگه فروشگاه"
+
+#: inc/admin/class-lp-admin-dashboard.php:31
+msgid "LearnPress status"
+msgstr "وضعیت لرن‌پرس"
+
+#: inc/admin/class-lp-reset-data.php:105
+msgid "No data found"
+msgstr "هیچ اطلاعاتی یافت نشد"
+
+#: inc/admin/class-lp-admin.php:539
+#: inc/jwt/rest-api/version1/class-lp-rest-users-v1-controller.php:163
+msgid "Sorry, you are not allowed to edit this user."
+msgstr "متاسفم، شما اجازه ندارید این کاربر را ویرایش کنید."
+
+#: inc/admin/meta-box/fields/payment-order.php:8
+#: inc/admin/views/tools/course/html-user.php:28
+#: assets/js/dist/admin/pages/tools.js:1184
+#: assets/src/apps/js/admin/pages/tools/reset-data/course.js:154
+msgid "ID"
+msgstr "شناسه"
+
+#: inc/admin/meta-box/fields/list-emails.php:8
+#: inc/admin/meta-box/fields/payment-order.php:9
+#: inc/admin/views/quiz/question-meta.php:18
+#: inc/admin/views/setup/setup-stripe.php:11
+msgid "Description"
+msgstr "توضیحات"
+
+#: inc/admin/class-lp-admin-dashboard.php:21
+msgid "LearnPress order status"
+msgstr "وضعیت سفارش لرن‌پرس"
+
+#: inc/admin/class-lp-install-sample-data.php:69
+msgid "Are you sure you want to delete sample course data?"
+msgstr "آیا از حذف داده‌های دوره نمونه مطمئن هستید؟"
+
+#: inc/admin/class-lp-modal-search-users.php:50
+#: inc/admin/views/modal-search-users.php:10
+msgid "Search users"
+msgstr "جستجو کاربران"
+
+#: inc/admin/class-lp-admin-ajax.php:648
+msgid "Access denied"
+msgstr "دسترسی ممکن نیست"
+
+#: inc/admin/class-lp-admin-ajax.php:950
+msgid "Error! Page creation failed. Please try again."
+msgstr "خطا! ساخت برگه ناموفق بود. لطفا دوباره امتحان کنید."
+
+#: inc/admin/class-lp-admin-assets.php:30
+msgid "Ooops! Error."
+msgstr "اوه! خطا."
+
+#: inc/admin/class-lp-admin.php:218
+msgid "My Account Page"
+msgstr "برگه حساب من"
+
+#: inc/admin/class-lp-admin.php:222
+msgid "Terms and Conditions Page"
+msgstr "برگه قوانین و شرایط"
+
+#: inc/admin/class-lp-admin.php:239
+msgid "Account"
+msgstr "حساب کاربری"
+
+#: inc/admin/class-lp-admin.php:273
+msgid "Members"
+msgstr "اعضا"
+
+#: inc/admin/class-lp-admin.php:274
+msgid "Activity"
+msgstr "فعالیت"
+
+#: inc/admin/class-lp-admin.php:275 templates/global/form-register.php:51
+msgid "Register"
+msgstr "عضویت"
+
+#: inc/admin/class-lp-admin.php:276
+msgid "Activate"
+msgstr "فعالسازی"
+
+#: inc/admin/class-lp-admin.php:351
+msgid "LearnPress Page"
+msgstr "برگه لرن‌پرس"
+
+#: inc/admin/class-lp-admin.php:397
+msgid "LearnPress Pages (%d)"
+msgstr "برگه‌های لرن‌پرس (%d)"
+
+#: inc/admin/class-lp-admin.php:443
+msgctxt "pending-request"
+msgid "Accept"
+msgstr "پذیرفتن"
+
+#: inc/admin/class-lp-admin.php:513
+msgid "Pending Request %s"
+msgstr "%s درخواست در‌حال انتظار"
+
+#: inc/admin/class-lp-install-sample-data.php:157
+msgid "Course \"%s\" has been created"
+msgstr "دوره \"%s\" ایجاد شده است"
+
+#: inc/admin/views/setup/steps/pages.php:14
+msgid "Static Pages"
+msgstr "برگه‌های ثابت"
+
+#: inc/admin/editor/class-lp-admin-editor-quiz.php:164
+#: inc/admin/editor/class-lp-admin-editor-quiz.php:603
+msgid "Quiz creation failed."
+msgstr "ایجاد آزمون ناموفق بود."
+
+#: inc/abstract-settings.php:89
+#: inc/admin/settings/abstract-settings-page.php:51
+msgid "No setting available."
+msgstr "تنظیماتی دردسترس نیست."
+
+#: inc/abstracts/abstract-addon.php:366
+msgid "%s plugin file does not exist."
+msgstr "فایل پلاگین %s  وجود ندارد."
+
+#: inc/admin/class-lp-admin.php:243
+msgid "Confirmation"
+msgstr "تایید"
+
+#: inc/admin/class-lp-modal-search-items.php:337
+#: inc/admin/class-lp-modal-search-items.php:341
+#: inc/admin/class-lp-modal-search-items.php:345
+msgid "Add new item"
+msgstr "افزودن مورد جدید"
+
+#: inc/admin/class-lp-setup-wizard.php:73
+msgctxt "static-page"
+msgid "LP Courses"
+msgstr "دوره‌های لرن پرس"
+
+#: inc/admin/class-lp-modal-search-items.php:62
+#: inc/admin/views/modal-search-items.php:10
+msgid "Search items"
+msgstr "آیتم‌های جستجو"
+
+#: inc/admin/lp-admin-functions.php:1901
+msgid " Copy"
+msgstr "کپی"
+
+#: inc/admin/meta-box/fields/list-emails.php:56
+msgid "Enable all"
+msgstr "فعالسازی همه"
+
+#: inc/admin/meta-box/fields/list-emails.php:57
+msgid "Disable all"
+msgstr "غیرفعالسازی همه"
+
+#: inc/admin/settings/class-lp-settings-advanced.php:16
+#: inc/admin/settings/class-lp-settings-advanced.php:107
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: inc/admin/class-lp-admin.php:240
+msgid "Billing"
+msgstr "صورتحساب"
+
+#: inc/admin/class-lp-admin.php:244
+#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:23
+msgid "Invoice"
+msgstr "فاکتور"
+
+#: inc/admin/class-lp-admin.php:245
+msgid "Levels"
+msgstr "سطح"
+
+#: inc/admin/class-lp-install-sample-data.php:68
+msgid "Are you sure you want to install sample course data?"
+msgstr "آیا مطمئن هستید که می خواهید داده‌های دوره نمونه را نصب کنید؟"
+
+#: inc/admin/views/meta-boxes/fields/extra-faq.php:69
+#: inc/admin/views/meta-boxes/fields/extra.php:44
+#: inc/admin/views/meta-boxes/fields/repeater.php:48
+msgid "+ Add more"
+msgstr "+ افزودن"
+
+#: inc/admin/views/tools/database/html-repair-database.php:12
+msgid "Repair Database"
+msgstr "تعمیر پایگاه داده"
+
+#: inc/admin/views/html-admin-notice-templates.php:44
+msgid "This is not a bug, don't worry. Read more about Outdated template files notice <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr "نگران نباشید، این یک اشکال نیست. درباره اخطار فایل های قالب قدیمی اطلاعات بیشتری را در <a href=\"%s\" target=\"_blank\">اینجا</a> بخوانید."
+
+#: inc/admin/views/html-admin-notice-templates.php:39
+msgid "There is a new update of LearnPress. You may need to update your theme <strong>(%s)</strong> to avoid outdated template files."
+msgstr "آپدیت جدیدی برای لرن پرس موجود است. شاید نیاز باشد که قالبتان  <strong>(%s)</strong> را آپدیت کنید، جهت جلوگیری از قدیمی شدن فایل های قالب لرن پرس. "
+
+#: inc/course/lp-course-functions.php:1091
+msgid "Final Quiz"
+msgstr "آزمون نهایی"
+
+#: inc/class-lp-assets.php:86 inc/class-lp-checkout.php:624
+msgid "Invalid field"
+msgstr "مقدار فیلد نامعتبر است!"
+
+#: inc/course/lp-course-functions.php:999 inc/lp-core-functions.php:2573
+#: inc/templates/class-lp-template-profile.php:103
+#: inc/user-item/class-lp-user-item-quiz.php:145
+#: inc/user-item/class-lp-user-item.php:811 inc/user/class-lp-profile.php:870
+#: inc/user/class-lp-profile.php:904 assets/js/dist/frontend/quiz.js:1964
+#: assets/src/apps/js/frontend/quiz/components/result/index.js:157
+msgid "Passed"
+msgstr "سپری شده"
+
+#: inc/course/lp-course-functions.php:1002 inc/lp-core-functions.php:2576
+#: inc/templates/class-lp-template-profile.php:104
+#: inc/user-item/class-lp-user-item-quiz.php:146
+#: inc/user-item/class-lp-user-item.php:812 inc/user/class-lp-profile.php:871
+#: inc/user/class-lp-profile.php:905 assets/js/dist/frontend/quiz.js:1966
+#: assets/src/apps/js/frontend/quiz/components/result/index.js:159
+msgid "Failed"
+msgstr "ناموفق"
+
+#: inc/user/class-lp-profile.php:306
+msgid "Avatar"
+msgstr "آواتار"
+
+#: templates/profile/tabs/settings/change-password.php:45
+msgid "New password does not match!"
+msgstr "رمز عبور جدید مثل هم نیستند!"
+
+#: inc/widgets/featured-courses.php:43 inc/widgets/popular-courses.php:39
+#: inc/widgets/recent-courses.php:44
+msgid "Limit"
+msgstr "محدود شده"
+
+#: inc/widgets/featured-courses.php:88 inc/widgets/popular-courses.php:62
+#: inc/widgets/popular-courses.php:81 inc/widgets/recent-courses.php:66
+#: inc/widgets/recent-courses.php:83
+msgid "Go to Courses"
+msgstr "رفتن به دوره"
+
+#: inc/admin/views/meta-boxes/order/exports-invoice.php:90
+msgid "Update"
+msgstr "بروزرسانی"
+
+#: inc/admin/meta-box/fields/image.php:20
+#: assets/js/dist/frontend/profile.js:574
+#: assets/src/apps/js/frontend/profile/avatar.js:215
+msgid "Upload"
+msgstr "بارگذاری"
+
+#: inc/admin/views/addons/html-plugins-more.php:35
+msgid "Free add-ons"
+msgstr "افزودنی‌های رایگان"
+
+#: inc/admin/views/addons/html-plugins-more.php:40
+msgid "Premium add-ons"
+msgstr "افزودنی‌های پولی"
+
+#: inc/admin/lp-admin-functions.php:704
+#: inc/admin/views/addons/html-loop-theme.php:46
+msgid "View Demo"
+msgstr "نمایش نسخه‌ی نمایشی"
+
+#: inc/course/lp-course-functions.php:1005 inc/lp-core-functions.php:2579
+#: inc/lp-deprecated.php:403 inc/templates/class-lp-template-profile.php:101
+#: inc/user-item/class-lp-user-item-quiz.php:142
+#: inc/user-item/class-lp-user-item-quiz.php:143
+#: inc/user-item/class-lp-user-item.php:805
+#: inc/user-item/class-lp-user-item.php:806
+#: inc/user-item/class-lp-user-item.php:807
+msgid "In Progress"
+msgstr "در حال پیشرفت"
+
+#: inc/widgets/course-extra.php:46 inc/widgets/course-info.php:43
+#: inc/widgets/course-progress.php:40
+msgid "CSS Class"
+msgstr "CSS Class"
+
+#: inc/lp-webhooks.php:84
+msgid "LearnPress webhook %s process completed"
+msgstr "پروسه وب هوک %s لرن پرس تکمیل شد"
+
+#: inc/admin/views/meta-boxes/question/settings.php:31
+#: inc/admin/views/quiz/question-meta.php:44
+msgid "Instruction for user to select the right answer. The text will be shown when users click the 'Hint' button."
+msgstr "دستورالعملی برای کاربر در جهت انتخاب پاسخ درست است. این متن زمانی نشان داده خواهد شد که کاربر  بر روی  دکمه \"راهنما\" کلیک کند."
+
+#: inc/admin/views/addons/html-themes.php:31
+msgid "Education Support"
+msgstr "پوسته‌های آموزشی"
+
+#: inc/admin/lp-admin-functions.php:702
+#: inc/admin/views/addons/html-loop-theme.php:45
+msgid "Get it now"
+msgstr "دریافت"
+
+#: inc/admin/settings/class-lp-settings-advanced.php:56
+#: inc/admin/settings/class-lp-settings-general.php:133
+#: inc/admin/views/addons/html-themes.php:35
+msgid "Other"
+msgstr "سایر"
+
+#: inc/admin/class-lp-admin-dashboard.php:82
+#: inc/admin/views/addons/html-loop-theme.php:32
+msgid " sales"
+msgstr "فروش"
+
+#: templates/global/before-main-content.php:25
+msgid "LearnPress <strong>Checkout</strong> page is not set up. "
+msgstr "برگه <strong> پرداخت </strong> لرن‌پرس، تنظیم نشده است."
+
+#: inc/user/lp-user-functions.php:1240
+msgid "Confirmation password incorrect!"
+msgstr "تایید رمزعبور اشتباه است!"
+
+#: templates/global/before-main-content.php:28
+msgid "Please contact administrator for setting up this page."
+msgstr "لطفا برای تنظیم این صفحه با مدیر تماس بگیرید."
+
+#: inc/order/class-lp-order.php:347
+msgid "Removed"
+msgstr "حذف شده"
+
+#: inc/order/class-lp-order.php:1045
+msgid "No user assigned"
+msgstr "هیچ کاربری تعیین نشده است"
+
+#: templates/global/before-main-content.php:30
+msgid "Please <a href=\\\"%s\\\" target=\\\"_blank\\\">setup</a> it so users can purchase courses."
+msgstr "لطفا این گزینه را <a href=\"%s\" target=\"_blank\">تنظیم </a> کنید تا کاربر بتواند هزینه دوره را پرداخت نماید"
+
+#: inc/admin/class-lp-modal-search-items.php:336
+msgid "There are no available lessons for this course, please use "
+msgstr "برای این دوره درسی وجود ندارد، لطفا با استفاده"
+
+#: inc/admin/class-lp-modal-search-items.php:340
+msgid "There are no available quizzes for this course, please use "
+msgstr "برای این دوره آزمونی وجود ندارد، لطفا با استفاده"
+
+#: inc/admin/class-lp-modal-search-items.php:344
+msgid "There are no available questions for this quiz, please use "
+msgstr "برای این دوره سوالی وجود ندارد، لطفا با استفاده"
+
+#: inc/admin/class-lp-admin.php:214
+msgid "Checkout Page"
+msgstr "صفحه پرداخت"
+
+#: inc/admin/views/tools/html-template.php:39
+msgid "File"
+msgstr "پرونده"
+
+#: inc/admin/views/tools/html-template.php:56
+msgid "Version"
+msgstr "نسخه"
+
+#: inc/admin/views/tools/html-template.php:58
+msgid "Core version"
+msgstr "نسخه اصلی"
+
+#: inc/admin/views/html-admin-notice-templates.php:58
+msgid "View list of outdated templates"
+msgstr "نمایش لیست قالب های از رده خارج"
+
+#: inc/admin/meta-box/fields/email-content.php:95
+msgid "This template has been overridden by your theme and can be found in: <code>%s</code>. <br />Please open the file in an editor program to edit"
+msgstr "این الگو شده است با تم خود باطل و می تواند در پیدا شده است: از <code>%s</code>. <br /> لطفا باز کردن فایل در یک برنامه ویرایشگر برای ویرایش"
+
+#: inc/attributes/course.php:376
+msgid "New Course %s"
+msgstr "دوره جدید %s"
+
+#: inc/attributes/course.php:375
+msgid "Add New Course %s"
+msgstr "افزودن دوره جدید %s"
+
+#: inc/attributes/course.php:374
+msgid "Update Course %s"
+msgstr "بروزرسانی دوره %s"
+
+#: inc/attributes/course.php:373
+msgid "Edit Course %s"
+msgstr "ویرایش دوره %s"
+
+#: inc/attributes/course.php:369
+msgid "Search Course %s"
+msgstr "جستجو دوره %s"
+
+#: inc/attributes/course.php:242
+msgid "Edit &#8220;%s&#8221;"
+msgstr "ویرایش &#8220;%s&#8221;"
+
+#: inc/attributes/course.php:103 inc/class-lp-assets.php:87
+msgid "Unknown error"
+msgstr "خطای ناشناخته"
+
+#: inc/admin/sub-menus/class-lp-submenu-addons.php:55
+msgid "Search..."
+msgstr "جستجو..."
+
+#: inc/admin/sub-menus/class-lp-submenu-tools.php:20
+msgid "Database"
+msgstr "پایگاه‌ داده"
+
+#: inc/attributes/course.php:264
+msgid "Terms"
+msgstr "شرایط و مقررات"
+
+#: inc/attributes/course.php:370
+msgid "All Course %s"
+msgstr "تمام دوره‌ها %s"
+
+#: inc/attributes/course.php:371
+msgid "Parent Course %s"
+msgstr "دوره والد %s"
+
+#: inc/attributes/course.php:372
+msgid "Parent Course %s:"
+msgstr "دوره والد %s:"
+
+#: inc/attributes/course.php:322
+msgid "Add New Attribute"
+msgstr "افزودن ویژگی جدید"
+
+#: inc/attributes/course.php:317 inc/attributes/course.php:320
+msgid "Attribute"
+msgstr "ویژگی"
+
+#: inc/attributes/course.php:249
+msgid "Clear"
+msgstr "پاک کردن"
+
+#: inc/admin/class-lp-admin-menu.php:66
+msgid "View Courses"
+msgstr "نمایش دوره"
+
+#: inc/attributes/course.php:212
+msgid "No terms found."
+msgstr "هیچ شرایطی یافت نشد"
+
+#: inc/admin/views/tools/html-template.php:30
+msgid "Override Templates (%s)"
+msgstr "نادیده گرفتن قالب‌های (%s)"
+
+#: inc/admin/views/tools/html-template.php:96
+msgid "There is no template file has overwritten"
+msgstr "هیچ فایل قالب رونویسی شده‌ای وجود ندارد"
+
+#: inc/admin/views/tools/course/html-user-item.php:28
+msgid "Reset"
+msgstr "بازنشانی"
+
+#: inc/attributes/course.php:377
+msgid "No &quot;Course %s&quot; found"
+msgstr "هیچ &quot;دوره %s&quot; یافت نشد"
+
+#: inc/attributes/course.php:140 inc/attributes/course.php:306
+#: inc/attributes/course.php:319 inc/attributes/course.php:321
+msgid "Attributes"
+msgstr "ویژگی‌ها"
+
+#: inc/attributes/course.php:323
+msgid "All Attributes"
+msgstr "تمام ویژگی‌ها"
+
+#: inc/admin/sub-menus/class-lp-submenu-tools.php:21
+msgid "Templates"
+msgstr "قالب‌ها"
+
+#: inc/admin/lp-admin-functions.php:412
+msgid "Minutes"
+msgstr "دقیقه"
+
+#: inc/templates/class-lp-template-course.php:875
+msgid "%d lesson"
+msgid_plural "%d lessons"
+msgstr[0] "%d درس"
+
+#: inc/templates/class-lp-template-course.php:883
+msgid "%d student"
+msgid_plural "%d students"
+msgstr[0] "%d دانشجو"
+
+#: inc/admin/views/statistics/orders.php:49
+#: inc/custom-post-types/course.php:167
+msgid "Course Category"
+msgstr "دسته دوره"
+
+#: inc/admin/views/statistics/orders.php:52
+msgid "Select a course"
+msgstr "یک دوره انتخاب کنید"
+
+#: inc/admin/views/statistics/orders.php:56
+msgid "Select a course category"
+msgstr "یک دسته دوره انتخاب کنید"
+
+#: templates/loop/course/badge-featured.php:23
+msgid "Featured"
+msgstr "ویژه"
+
+#: inc/class-lp-shortcodes.php:220
+msgid "Create new account"
+msgstr "ساخت حساب‌کاربری جدید"
+
+#: inc/class-lp-shortcodes.php:218
+msgid "Forgot password?"
+msgstr "فراموشی رمز عبور؟"
+
+#: inc/admin/views/meta-boxes/course/settings.php:50
+#: inc/admin/views/meta-boxes/course/settings.php:367
+#: inc/custom-post-types/course.php:532 inc/custom-post-types/course.php:549
+#: inc/custom-post-types/lesson.php:221 inc/custom-post-types/question.php:322
+#: inc/custom-post-types/quiz.php:236
+msgid "Author"
+msgstr "مدرس"
+
+#: inc/admin/views/statistics/orders.php:45
+msgid "Sale by"
+msgstr "فروش براساس"
+
+#: inc/admin/lp-admin-functions.php:2027
+msgid "Question id %s does not exist."
+msgstr "شناسه سوال %s وجود ندارد."
+
+#: inc/admin/lp-admin-functions.php:2031
+msgid "Quiz id %s does not exist."
+msgstr "آزمون شماره %s وجود ندارد."
+
+#: inc/curds/class-lp-quiz-curd.php:165
+msgid "<p>Sorry! You have not permission to duplicate this quiz</p>"
+msgstr "<p>با عرض پوزش! شما اجازه تکثیر این دوره را ندارید</p>"
+
+#: inc/admin/views/tools/course/html-user.php:21
+msgid "Search"
+msgstr "جستجو"
+
+#: templates/single-course/sidebar/user-progress.php:74
+msgid "Passing condition: %s%%"
+msgstr "شرط گذراندن: %s%%"
+
+#: templates/profile/tabs/settings/basic-information.php:58
+msgid "Biographical Info"
+msgstr "اطلاعات بیوگرافی"
+
+#: inc/lp-template-functions.php:60
+msgid "Overview"
+msgstr "بررسی اجمالی"
+
+#: inc/order/lp-order-functions.php:793
+msgid "Order number <strong>%s</strong> can not be cancelled"
+msgstr "سفارش شماره <strong>%s</strong> قابل لغو نیست."
+
+#: inc/user/lp-user-functions.php:1234
+msgid "Old password incorrect!"
+msgstr "گذرواژه قدیمی اشتباه است!"
+
+#: inc/user/lp-user-functions.php:933
+msgid "Please login to enroll this course"
+msgstr "برای ثبت نام در این دوره وارد شوید"
+
+#: inc/user/lp-user-functions.php:951
+msgid "You have already finished course"
+msgstr "اکنون شما این دوره را به پایان رساندید"
+
+#: inc/user/class-lp-profile.php:297
+msgid "Logout"
+msgstr "خروج"
+
+#: templates/profile/tabs/settings/basic-information.php:61
+msgid "Share a little biographical information to fill out your profile. This may be shown publicly."
+msgstr "به اشتراک گذاشتن زندگینامهای کوچک برای پر کردن مشخصات خود. این ممکن است به نمایش عموم درآید."
+
+#: inc/course/lp-course-functions.php:757
+msgid "Edit this item"
+msgstr "ویرایش این آیتم"
+
+#: templates/profile/tabs/settings/change-password.php:36
+msgid "New password"
+msgstr "رمز‌عبور جدید"
+
+#: inc/widgets/popular-courses.php:26
+msgid "Popular Courses"
+msgstr "دوره‌های محبوب"
+
+#: inc/widgets/recent-courses.php:31
+msgid "Recent Courses"
+msgstr "دوره‌های اخیر"
+
+#: inc/widgets/featured-courses.php:30
+msgid "Featured Courses"
+msgstr "دوره‌های منتخب"
+
+#: inc/class-lp-strings.php:22
+msgid "You've already completed quiz."
+msgstr "شما قبلا آزمون را تکمیل کرده اید."
+
+#: inc/user/abstract-lp-user.php:1590
+msgid "You have already completed this lesson."
+msgstr "شما قبلا این درس را کامل کرده اید."
+
+#: inc/user-item/class-lp-user-item-quiz.php:153
+msgid "Not Started"
+msgstr "شروع نشده"
+
+#: inc/lp-deprecated.php:1436
+msgid "Cancel Order"
+msgstr "لغو سفارش"
+
+#: inc/lp-core-functions.php:889
+msgid "Week(s)"
+msgstr "هفته"
+
+#: inc/lp-core-functions.php:887
+msgid "Hour(s)"
+msgstr "ساعت"
+
+#: inc/lp-core-functions.php:886
+msgid "Minute(s)"
+msgstr "دقیقه"
+
+#: inc/admin/views/meta-boxes/course/settings.php:303
+msgid "Schedule"
+msgstr "برنامه ریزی"
+
+#. translators: Publish box date format, see http://php.net/date
+#: inc/custom-post-types/abstract.php:962
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: inc/custom-post-types/abstract.php:960
+msgid "scheduled for: <strong>%1$s</strong>."
+msgstr "برنامه ریزی شده برای: <strong>%1$s</strong>."
+
+#: inc/custom-post-types/abstract.php:958
+msgid "submitted."
+msgstr "ثبت شد."
+
+#: inc/lp-deprecated.php:1435
+msgid "Are you sure you want to cancel order?"
+msgstr "آیا شما مطمئن هستید میخواهید سفارشتان را لغو کنید؟"
+
+#: inc/order/lp-order-functions.php:784
+msgid "Order number <strong>%s</strong> not found"
+msgstr "شماره سفارش <strong>%s</strong> پیدا نشد"
+
+#: inc/order/lp-order-functions.php:787
+msgid "Order cancelled by customer"
+msgstr "سفارش لغو شده توسط مشتری"
+
+#: inc/order/lp-order-functions.php:790
+msgid "Order number <strong>%s</strong> has been cancelled"
+msgstr "شماره سفارش <strong>%s</strong> لغو شده است"
+
+#: inc/custom-post-types/abstract.php:951
+msgid "Custom field updated."
+msgstr "زمینه های سفارشی به روز شد."
+
+#. translators: %s: date and time of the revision
+#: inc/custom-post-types/abstract.php:955
+msgid "Lesson restored to revision from %s"
+msgstr "درس بازسازی شده به نسخه %s"
+
+#: inc/custom-post-types/abstract.php:957
+msgid "saved."
+msgstr "ذخیره."
+
+#: inc/admin/views/meta-boxes/course/settings.php:385
+msgid "The method to assess the result of a student for a course."
+msgstr "روشی برای ارزیابی نتایج یک دانش آموز در یک دوره."
+
+#: inc/custom-post-types/order.php:766 templates/checkout/order-received.php:71
+msgid "Course does not exist"
+msgstr "دوره وجود ندارد"
+
+#: inc/lp-deprecated.php:1469
+msgid "Congrats! You've enrolled the course \"%s\"."
+msgstr "تبریک! شما در دوره \"%s\" ثبت نام شدید."
+
+#: inc/custom-post-types/abstract.php:956
+msgid "published."
+msgstr "منتشر شد."
+
+#: inc/custom-post-types/abstract.php:950
+#: inc/custom-post-types/abstract.php:953
+msgid "updated."
+msgstr "بروز‌رسانی شد."
+
+#: inc/lp-core-functions.php:888
+msgid "Day(s)"
+msgstr "روز"
+
+#: inc/custom-post-types/quiz.php:286
+msgid "This quiz has no questions"
+msgstr "این آزمون سوالی ندارد."
+
+#: inc/custom-post-types/abstract.php:964
+msgid "draft updated."
+msgstr "پیش‌نویس بروزرسانی شد."
+
+#: inc/quiz/class-lp-quiz.php:579
+msgid "Are you sure you want to finish this quiz?"
+msgstr "آیا شما مطمئن هستید که میخواهید این آزمون به اتمام برسد؟"
+
+#: inc/lp-core-functions.php:3492
+msgid "Evaluate via results of the final quiz"
+msgstr "ارزیابی نتیجه آزمون نهایی"
+
+#: templates/single-course/buttons/retry.php:37
+msgid "Retake course"
+msgstr "شرکت مجدد در دوره"
+
+#: inc/custom-post-types/abstract.php:952
+msgid "Custom field deleted."
+msgstr "زمینه‌های سفارشی حذف شده است."
+
+#: inc/cart/class-lp-cart.php:120
+msgid "Get cart should not be called before the wp_loaded action."
+msgstr "سبد خرید نباید قبل از فراخوانی عمل wp_loaded استفاده شود."
+
+#: inc/admin/views/meta-boxes/fields/extra-faq.php:37
+#: inc/admin/views/meta-boxes/fields/extra-faq.php:57
+#: inc/admin/views/setup/setup-stripe.php:7 inc/widgets/course-extra.php:25
+#: inc/widgets/course-info.php:32 inc/widgets/course-progress.php:29
+#: inc/widgets/featured-courses.php:28 inc/widgets/popular-courses.php:24
+#: inc/widgets/recent-courses.php:29
+msgid "Title"
+msgstr "عنوان"
+
+#: inc/class-lp-ajax.php:238
+msgid "You have finished this course \"%s\""
+msgstr "شما این دوره را به پایان رسانده اید \"%s\""
+
+#: inc/admin/views/quiz/question-actions.php:28
+msgid "Duplicate"
+msgstr "تکثیر"
+
+#: inc/admin/class-lp-admin-ajax.php:953
+msgid "Empty page name!"
+msgstr "نام صفحه خالی است!"
+
+#: inc/admin/sub-menus/class-lp-submenu-tools.php:12
+msgid "Tools"
+msgstr "ابزارها"
+
+#: inc/admin/class-lp-admin.php:592
+msgid "LearnPress requires permalink option <strong>Post name</strong> is enabled. Please enable it <a href=\"%s\">here</a> to ensure that all functions work properly."
+msgstr "سیستم یادگیری نیاز به گزینه پیوند ثابت به <strong> نام پست </strong> دارد که آنرا فعال کنید. لطفا آن را فعال کنید <a href=\"%s\"> اینجا </a> اطمینان حاصل شود که تمام توابع درستی کار میکند."
+
+#: inc/curds/class-lp-course-curd.php:137
+msgid "<p>Op! The course does not exist</p>"
+msgstr "<p>اوه! این دوره وجود ندارد</p>"
+
+#: inc/admin/views/dashboard/plugin-status/html-no-data.php:4
+msgid "No results found"
+msgstr "نتیجه ای پیدا نشد"
+
+#: inc/admin/views/dashboard/plugin-status/html-results.php:20
+msgid "Downloaded"
+msgstr "دانلود شده"
+
+#: inc/admin/views/dashboard/plugin-status/html-results.php:23
+msgid "Active Installed"
+msgstr "فعال و نصب شده"
+
+#: inc/admin/views/dashboard/plugin-status/html-results.php:37
+msgid "Updated"
+msgstr "بروزرسانی شده"
+
+#: inc/admin/views/dashboard/plugin-status/html-results.php:38
+msgid "Current Version"
+msgstr "نسخه فعلی"
+
+#: inc/admin/dashboard-statistics/class-lp-statistic-status.php:32
+#: inc/admin/views/dashboard/html-orders.php:19
+msgid "Total Raised"
+msgstr "کل مبلغ جمع آوری"
+
+#: inc/admin/class-lp-admin-dashboard.php:89
+#: inc/admin/dashboard-statistics/class-lp-statistic-status.php:70
+msgid "Created by: "
+msgstr "ایجاد شده توسط:"
+
+#: inc/admin/settings/class-lp-settings-profile.php:89
+#: inc/user/lp-user-functions.php:2001 inc/user/lp-user-functions.php:2003
+#: templates/profile/tabs/settings/basic-information.php:33
+msgid "First name"
+msgstr "نام"
+
+#: inc/admin/settings/class-lp-settings-profile.php:96
+#: inc/user/lp-user-functions.php:2014 inc/user/lp-user-functions.php:2016
+#: templates/profile/tabs/settings/basic-information.php:39
+msgid "Last name"
+msgstr "نام خانوادگی"
+
+#: inc/admin/dashboard-statistics/class-lp-statistic-status.php:51
+#: inc/admin/dashboard-statistics/class-lp-statistic-status.php:56
+#: inc/admin/views/dashboard/html-orders.php:44
+#: inc/admin/views/dashboard/html-orders.php:46
+msgid "%d order"
+msgid_plural "%d orders"
+msgstr[0] "%d سفارش"
+
+#: inc/admin/class-lp-admin.php:647
+msgid "Thanks :)"
+msgstr "سپاس :)"
+
+#: inc/class-lp-ajax.php:221
+msgid "Access denied!"
+msgstr "دسترسی محدود است!"
+
+#: inc/shortcodes/class-lp-shortcode-become-a-teacher.php:104
+msgid "Your role is allowed to create a course."
+msgstr "نقش شما اجازه ایجاد یک دوره را دارد."
+
+#: inc/lp-core-functions.php:2374
+msgid "Cart"
+msgstr "سبد خرید"
+
+#: inc/emails/student/class-lp-email-finished-course-user.php:27
+msgid "Send this email to user when they have finished course."
+msgstr "ارسال این ایمیل به کاربر زمانی که آنها در این دوره ثبت نام کنند."
+
+#: inc/cart/class-lp-cart.php:152
+msgid "Sorry! This course is not purchasable."
+msgstr "متاسفانه این دوره قابل خریداری نیست !"
+
+#: inc/course/abstract-course.php:1941
+msgid "This course will end within next %s"
+msgstr "این دوره در %s بعد به پایان خواهد رسید"
+
+#: inc/order/class-lp-order.php:1004
+msgctxt "full name"
+msgid "%1$s"
+msgstr "%1$s"
+
+#: inc/order/lp-order-functions.php:743
+msgid "Order received in case user buy a course but doesn't finalise the order."
+msgstr "سفارش دریافت شده در مورد کاربر خرید یک دوره اما سفارش نهایی نشده است."
+
+#: inc/order/lp-order-functions.php:744
+msgid "Payment received and the order is awaiting fulfillment."
+msgstr "از پرداخت دریافت کرده و سفارش در انتظار تحقق است."
+
+#: inc/order/lp-order-functions.php:745
+msgid "Order fulfilled and complete."
+msgstr "سفارش انجام و کامل است."
+
+#: inc/order/lp-order-functions.php:746
+msgid "The order is cancelled by an admin or the customer."
+msgstr "سفارش توسط سرپرست یا مشتری لغو شده است."
+
+#: templates/emails/plain/order-items-table.php:76
+msgid "Quantity: %s"
+msgstr "تعداد: %s"
+
+#: templates/emails/plain/order-items-table.php:78
+msgid "Cost: %s"
+msgstr "هزینه: %s"
+
+#: inc/user/class-lp-user.php:499
+msgid "You cannot start a quiz in preview mode."
+msgstr "شما نمی‌توانید آزمون را در حالت پیش‌نمایش شروع کنید."
+
+#: inc/emails/admin/class-lp-email-become-an-instructor.php:28
+msgid "Become an instructor"
+msgstr "تبدیل شدن به یک مدرس"
+
+#: inc/class-lp-assets.php:72 inc/lp-core-functions.php:2169
+#: inc/lp-core-functions.php:3187 assets/js/dist/frontend/modal.js:171
+#: assets/src/apps/js/frontend/modal/index.js:41
+msgid "OK"
+msgstr "باشه"
+
+#: inc/admin/sub-menus/class-lp-submenu-tools.php:13
+msgid "LearnPress Tools"
+msgstr "ابزارهای لرن پرس"
+
+#: inc/admin/views/tools/database/html-remove-database.php:12
+msgid "Remove current Data"
+msgstr "حذف داده‌های کنونی"
+
+#: inc/admin/views/tools/database/html-remove-outdated-data.php:12
+msgid "Remove outdated Data"
+msgstr "حذف داده‌های قدیمی"
+
+#: inc/admin/views/tools/database/html-remove-database.php:13
+msgid "Remove all courses, lessons, quizzes and questions."
+msgstr "حذف تمام دوره‌ها، درس‌ها، آزمون‌ها و سوالات"
+
+#: inc/admin/views/tools/database/html-remove-database.php:16
+msgid "Be careful before using this action!"
+msgstr "هشدار: قبل از استفاده از این عمل، مراقب باشید!"
+
+#: inc/admin/views/tools/database/html-remove-database.php:20
+#: inc/admin/views/tools/database/html-remove-outdated-data.php:20
+msgid "Check this box and click this button again to confirm."
+msgstr "این کادر را علامت بزنید و برای تأیید، دوباره روی دکمه حذف کلیک کنید."
+
+#: inc/admin/views/tools/database/html-remove-outdated-data.php:13
+msgid "Remove all courses, lessons, quizzes and questions from version older than 1.0."
+msgstr "حذف تمام دوره‌ها، درس‌ها، آزمون‌ها و سوالات پایین تر از نسخه 1.0."
+
+#: inc/admin/views/tools/database/html-remove-outdated-data.php:16
+msgid "Be careful before using this action! Only use this action in case all outdated data has been upgraded."
+msgstr "هشدار: قبل از استفاده از این عمل، مراقب باشید! تنها این عمل را در صورت بروزرسانی تمام داده‌های قدیمی استفاده کنید."
+
+#: inc/custom-post-types/order.php:822
+msgid "No order found"
+msgstr "هیچ سفارشی پیدا نشد"
+
+#: inc/custom-post-types/order.php:823
+msgid "No order found in Trash"
+msgstr "هیچ سفارشی در زباله‌دان پیدا نشد"
+
+#: inc/custom-post-types/order.php:821
+msgid "Search Orders"
+msgstr "جستجو سفارش‌ها"
+
+#: inc/custom-post-types/order.php:820
+msgid "Update Order"
+msgstr "بروزرسانی سفارش"
+
+#: inc/admin/lp-admin-functions.php:302
+msgid "Ok [Enter]"
+msgstr "تایید [Enter]"
+
+#: inc/admin/lp-admin-functions.php:300
+msgid "New page title"
+msgstr "عنوان برگه جدید"
+
+#: inc/admin/class-lp-setup-wizard.php:245 inc/admin/views/setup/content.php:94
+#: inc/admin/views/setup/steps/finish.php:12
+msgid "Finish"
+msgstr "پایان"
+
+#: inc/admin/views/setup/content.php:77 inc/custom-post-types/course.php:75
+#: inc/custom-post-types/quiz.php:169
+msgid "Back"
+msgstr "مرحله قبل"
+
+#: templates/profile/tabs/courses/course-list.php:23
+#: templates/profile/tabs/quizzes.php:55 assets/js/dist/frontend/quiz.js:205
+#: assets/js/dist/frontend/quiz.js:866
+#: assets/src/apps/js/frontend/quiz/components/attempts/index.js:25
+#: assets/src/apps/js/frontend/quiz/components/buttons/index.js:296
+msgid "Result"
+msgstr "نتیجه"
+
+#: inc/lp-template-functions.php:1082 inc/lp-template-functions.php:1259
+#: inc/templates/class-lp-template-course.php:149
+msgid "Final"
+msgstr "نهایی"
+
+#: inc/admin/views/meta-boxes/quiz/settings.php:58
+#: assets/js/dist/frontend/quiz.js:856
+#: assets/src/apps/js/frontend/quiz/components/buttons/index.js:264
+msgid "Retake"
+msgstr "تکرار"
+
+#: templates/single-course/sidebar/user-time.php:36
+#: assets/js/dist/frontend/quiz.js:1158
+#: assets/src/apps/js/frontend/quiz/components/meta/index.js:20
+msgid "Duration:"
+msgstr "مدت زمان:"
+
+#: templates/single-course/loop-section.php:79
+msgid "No items in this section"
+msgstr "هیچ موردی در این بخش وجود ندارد"
+
+#. Plugin URI of the plugin
+msgid "http://thimpress.com/learnpress"
+msgstr "http://thimpress.com/learnpress"
+
+#. Description of the plugin
+msgid "LearnPress is a WordPress complete solution for creating a Learning Management System (LMS). It can help you to create courses, lessons and quizzes."
+msgstr "لرن‌پرس یک راه حل کامل وردپرسی برای ایجاد سیستم مدیریت یادگیری (LMS) می‌باشد.این افزونه به شما کمک خواهد کرد تا دوره‌ها، درس‌ها و آزمون‌های آنلاین ایجاد کنید."
+
+#. Author URI of the plugin
+msgid "http://thimpress.com"
+msgstr "http://thimpress.com"
+
+#: inc/course/abstract-course.php:2065
+msgid "Tags: "
+msgstr "برچسب‌ها:"
+
+#: inc/emails/instructor/class-lp-email-cancelled-order-instructor.php:25
+#: inc/emails/instructor/class-lp-email-enrolled-course-instructor.php:25
+#: inc/emails/instructor/class-lp-email-finished-course-instructor.php:25
+#: inc/emails/instructor/class-lp-email-new-order-instructor.php:21
+#: inc/lp-template-functions.php:73
+#: templates/single-course/meta/instructor.php:20
+msgid "Instructor"
+msgstr "مدرس:"
+
+#. Author of the plugin
+msgid "ThimPress"
+msgstr "ThimPress"
+
+#: inc/admin/views/meta-boxes/question/settings.php:30
+#: inc/admin/views/quiz/question-meta.php:39
+#: assets/js/dist/frontend/quiz.js:499 assets/js/dist/frontend/quiz.js:1709
+#: assets/src/apps/js/frontend/quiz/components/buttons/button-hint.js:22
+#: assets/src/apps/js/frontend/quiz/components/questions/question.js:177
+msgid "Hint"
+msgstr "اشاره"
+
+#: inc/quiz/class-lp-quiz.php:521
+msgid "Unlimited"
+msgstr "نامحدود"
+
+#: inc/quiz/class-lp-quiz.php:578
+msgid "Finish quiz"
+msgstr "پایان آزمون"
+
+#: inc/admin/views/meta-boxes/order/details.php:60
+#: templates/order/confirm.php:70
+msgid "Status:"
+msgstr "وضعیت:"
+
+#: templates/order/confirm.php:47
+msgid "Order Number:"
+msgstr "شماره سفارش:"
+
+#: templates/order/confirm.php:52
+msgid "Date:"
+msgstr "تاریخ:"
+
+#: templates/checkout/review-order.php:19
+msgid "Your order"
+msgstr "سفارش شما"
+
+#: templates/checkout/order-received.php:54
+#: templates/emails/order-items-table.php:60
+#: templates/emails/plain/order-items-table.php:52
+msgid "Order Number"
+msgstr "شماره سفارش"
+
+#: templates/checkout/order-received.php:117
+#: templates/emails/order-items-table.php:68
+#: templates/emails/plain/order-items-table.php:56
+msgid "Payment Method"
+msgstr "روش پرداخت"
+
+#: templates/checkout/order-comment.php:16
+msgid "Additional Information"
+msgstr "اطلاعات اضافی"
+
+#: inc/admin/views/setup/content.php:88
+#: templates/single-course/buttons/continue.php:19
+msgid "Continue"
+msgstr "ادامه"
+
+#: inc/custom-post-types/quiz.php:167
+msgid "Option"
+msgstr "گزینه"
+
+#: inc/lp-deprecated.php:1966 inc/templates/class-lp-template-general.php:49
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr "خانه"
+
+#: inc/admin/class-lp-setup-wizard.php:237
+#: inc/admin/meta-box/fields/payment-order.php:7
+#: inc/admin/views/setup/steps/payment.php:16 templates/checkout/payment.php:25
+msgid "Payment"
+msgstr "پرداخت"
+
+#: inc/emails/student/class-lp-email-cancelled-order-user.php:25
+#: inc/emails/student/class-lp-email-completed-order-user.php:29
+#: inc/emails/student/class-lp-email-enrolled-course-user.php:27
+#: inc/emails/student/class-lp-email-finished-course-user.php:26
+#: inc/emails/student/class-lp-email-new-order-user.php:25
+#: inc/emails/student/class-lp-email-processing-order-user.php:22
+msgid "User"
+msgstr "نام کاربری"
+
+#: inc/custom-post-types/question.php:211
+msgid "Edit Question"
+msgstr "ویرایش سوال"
+
+#: inc/order/lp-order-functions.php:729
+msgctxt "Order status"
+msgid "Failed"
+msgstr "ناموفق"
+
+#: inc/order/lp-order-functions.php:734
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] "ناموفق <span class=\"count\">(%s)</span>"
+
+#: inc/admin/settings/class-lp-settings-advanced.php:86
+#: inc/custom-post-types/question.php:206 inc/custom-post-types/quiz.php:174
+msgid "Question"
+msgstr "سوال"
+
+#: inc/order/lp-order-functions.php:726
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "لغو شده <span class=\"count\">(%s)</span>"
+
+#: inc/order/lp-order-functions.php:713
+msgctxt "Order status"
+msgid "Completed"
+msgstr "تکمیل شده"
+
+#: inc/order/lp-order-functions.php:718
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgid_plural "Completed <span class=\"count\">(%s)</span>"
+msgstr[0] "تکمیل شده <span class=\"count\">(%s)</span>"
+
+#: inc/order/lp-order-functions.php:702
+msgid "Pending Payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Payment <span class=\"count\">(%s)</span>"
+msgstr[0] "در انتظار پرداخت <span class=\"count\">(%s)</span>"
+
+#: inc/custom-post-types/order.php:572 inc/custom-post-types/order.php:818
+msgid "View Order"
+msgstr "نمایش سفارش"
+
+#: inc/custom-post-types/order.php:815
+msgid "Add New Order"
+msgstr "افزودن سفارش جدید"
+
+#: inc/class-lp-assets.php:74 inc/class-lp-gdpr.php:464
+#: inc/lp-core-functions.php:2171 inc/lp-core-functions.php:3189
+#: templates/global/lp-modal-overlay.php:24
+msgid "Yes"
+msgstr "بله"
+
+#: inc/admin/views/meta-boxes/course/settings.php:43
+msgid "Assessment"
+msgstr "ارزیابی"
+
+#: inc/course/lp-course-functions.php:166
+msgctxt "slug"
+msgid "uncategorized"
+msgstr "uncategorized"
+
+#: inc/lp-deprecated.php:2283
+#: templates/global/become-teacher-form/form-fields.php:28
+msgid "Phone"
+msgstr "تلفن"
+
+#: inc/class-lp-emails.php:118 inc/class-lp-emails.php:125
+msgid "Cheatin&#8217; huh?"
+msgstr "کلک میزنی؟"
+
+#: inc/class-lp-breadcrumb.php:398
+msgid "Search results for &ldquo;%s&rdquo;"
+msgstr "نتیجه جستجو برای &ldquo;%s&rdquo;"
+
+#: inc/class-lp-breadcrumb.php:229
+msgid "Courses tagged &ldquo;%s&rdquo;"
+msgstr "محصولات برچسب خورده  &ldquo;%s&rdquo;"
+
+#: inc/shortcodes/class-lp-shortcode-course-curriculum.php:44
+msgid "Invalid course."
+msgstr "دوره نامعتبر است"
+
+#: inc/class-lp-ajax.php:241
+msgid "Error! You cannot finish this course. Please contact your administrator for more information."
+msgstr "خطا! شما نمی توانید این دوره را به اتمام برسانید. برای اطلاعات بیشتر با مدیر سایت تماس حاصل فرمایید."
+
+#: inc/class-lp-breadcrumb.php:287
+msgid "Posts tagged &ldquo;%s&rdquo;"
+msgstr "برچسب پست ها &ldquo;%s&rdquo;"
+
+#: inc/class-lp-breadcrumb.php:407
+msgid "Page %d"
+msgstr "صفحه %d"
+
+#: inc/class-lp-checkout.php:304 inc/class-lp-checkout.php:308
+#: templates/checkout/account-register.php:28
+#: templates/checkout/account-register.php:29
+#: templates/global/form-register.php:32 templates/global/form-register.php:33
+msgid "Username"
+msgstr "نام کاربری"
+
+#: inc/class-lp-checkout.php:364 inc/class-lp-checkout.php:374
+#: inc/class-lp-checkout.php:439
+msgid "Error %d: Unable to create order. Please try again."
+msgstr "خطا %d ! قادر به ایجاد سفارش نیست. لطفا دوباره تلاش کنید."
+
+#: inc/admin/views/tools/database/html-upgrade-database.php:26
+msgid "Upgrade now"
+msgstr "اکنون ارتقا دهید"
+
+#: inc/class-lp-multi-language.php:31
+msgid "Documentation"
+msgstr "مستندات"
+
+#: inc/curds/class-lp-order-curd.php:496
+#: templates/checkout/order-received.php:25
+msgid "Invalid order."
+msgstr "سفارش نامعتبر است!"
+
+#: inc/shortcodes/class-lp-shortcode-become-a-teacher.php:95
+msgid "Please login to fill in this form."
+msgstr "لطفا برای پر کردن این فرم وارد سایت شوید."
+
+#: inc/shortcodes/class-lp-shortcode-become-a-teacher.php:101
+msgid "Your request has been sent! We will get back to you soon!"
+msgstr "درخواست شما ارسال شده است! به زودی با شما تماس خواهیم گرفت!"
+
+#: inc/shortcodes/class-lp-shortcode-become-a-teacher.php:115
+#: templates/global/become-teacher-form/button.php:16
+msgid "Submit"
+msgstr "ارسال"
+
+#: inc/class-lp-assets.php:84 inc/class-lp-assets.php:91
+#: inc/shortcodes/class-lp-shortcode-become-a-teacher.php:116
+msgid "Processing"
+msgstr "در حال پردازش"
+
+#: inc/admin/settings/class-lp-settings-profile.php:112
+#: inc/admin/views/quiz/editor.php:47
+#: inc/admin/views/tools/course/html-user.php:29 inc/lp-deprecated.php:2267
+#: templates/global/become-teacher-form/form-fields.php:20
+#: templates/profile/tabs/courses/course-list.php:22
+#: assets/js/dist/admin/pages/tools.js:1184
+#: assets/src/apps/js/admin/pages/tools/reset-data/course.js:155
+msgid "Name"
+msgstr "نام"
+
+#: inc/lp-deprecated.php:2269
+#: templates/global/become-teacher-form/form-fields.php:21
+msgid "Your name"
+msgstr "نام شما"
+
+#: inc/admin/meta-box/fields/list-emails.php:7
+#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:40
+#: inc/admin/views/meta-boxes/order/exports-invoice.php:80
+#: inc/class-lp-checkout.php:303 inc/class-lp-checkout.php:311
+#: inc/lp-deprecated.php:2275 templates/checkout/account-register.php:25
+#: templates/global/become-teacher-form/form-fields.php:24
+#: templates/global/form-register.php:29
+msgid "Email"
+msgstr "ایمیل"
+
+#: inc/lp-deprecated.php:2277
+#: templates/global/become-teacher-form/form-fields.php:25
+msgid "Your email address"
+msgstr "آدرس ایمیل شما"
+
+#: inc/lp-deprecated.php:2285
+#: templates/global/become-teacher-form/form-fields.php:29
+msgid "Your phone number"
+msgstr "شماره تماس شما"
+
+#. translators: 1: Plugin name and version.
+#: inc/admin/helpers/class-lp-plugins-helper.php:241
+msgid "Install Now"
+msgstr "اکنون نصب کن"
+
+#: inc/admin/helpers/class-lp-plugins-helper.php:257
+#: inc/admin/helpers/class-lp-plugins-helper.php:266
+msgid "Enable %s now"
+msgstr "اکنون %s فعال کن"
+
+#: inc/admin/helpers/class-lp-plugins-helper.php:271
+msgid "Buy %s now"
+msgstr "اکنون %s خرید کن"
+
+#: inc/admin/helpers/class-lp-plugins-helper.php:271
+#: templates/single-course/buttons/purchase.php:33
+msgid "Buy Now"
+msgstr "اکنون خرید کن"
+
+#: inc/admin/class-lp-modal-search-items.php:183
+#: inc/admin/class-lp-modal-search-users.php:141 inc/lp-core-functions.php:802
+msgid "<"
+msgstr ">"
+
+#: inc/admin/class-lp-modal-search-items.php:184
+#: inc/admin/class-lp-modal-search-users.php:142 inc/lp-core-functions.php:803
+msgid ">"
+msgstr "<"
+
+#: inc/lp-core-functions.php:1034
+msgid "Left"
+msgstr "چپ"
+
+#: inc/lp-core-functions.php:1035
+msgid "Right"
+msgstr "راست"
+
+#: inc/class-lp-assets.php:75 inc/class-lp-gdpr.php:464
+#: inc/lp-core-functions.php:2172 inc/lp-core-functions.php:3190
+#: templates/global/lp-modal-overlay.php:23
+msgid "No"
+msgstr "خیر"
+
+#: inc/lp-deprecated.php:371
+msgid "Learning"
+msgstr "یادگیری"
+
+#: inc/admin/views/user/courses.php:42 inc/lp-deprecated.php:373
+#: inc/lp-deprecated.php:404 inc/templates/class-lp-template-profile.php:102
+#: inc/user-item/class-lp-user-item.php:810 inc/user/class-lp-profile.php:869
+#: inc/user/class-lp-profile.php:903
+msgid "Finished"
+msgstr "تمام شده"
+
+#: inc/admin/settings/class-lp-settings-profile.php:188
+#: inc/admin/sub-menus/class-lp-submenu-settings.php:18
+#: inc/class-lp-multi-language.php:30 inc/user/class-lp-profile.php:274
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: inc/admin/lp-admin-functions.php:457 inc/admin/lp-admin-functions.php:503
+#: inc/admin/settings/class-lp-settings-emails.php:149
+msgid "HTML"
+msgstr "HTML"
+
+#: inc/admin/views/meta-boxes/fields/extra-faq.php:41
+#: inc/admin/views/meta-boxes/fields/extra-faq.php:61
+#: inc/custom-post-types/course.php:533 inc/custom-post-types/course.php:550
+msgid "Content"
+msgstr "محتوا"
+
+#: inc/admin/settings/email-groups/class-lp-settings-enrolled-course-emails.php:28
+msgid "Enrolled Course"
+msgstr "ثبت نام این دوره"
+
+#: inc/admin/views/statistics/orders.php:47 inc/custom-post-types/order.php:658
+#: templates/checkout/order-received.php:94
+#: templates/profile/tabs/orders/list.php:32
+#: templates/profile/tabs/quizzes.php:57
+msgid "Date"
+msgstr "تاریخ"
+
+#: inc/admin/views/setup/steps/finish.php:27
+msgid "Create a new course"
+msgstr "ایجاد یک دوره جدید"
+
+#: inc/course/abstract-course.php:972 inc/course/abstract-course.php:992
+#: inc/lesson/class-lp-lesson.php:104 inc/quiz/class-lp-quiz.php:637
+msgid "The function %s doesn't exist"
+msgstr "عملکرد %s وجود ندارد"
+
+#: templates/single-course/buttons/finish.php:15
+#: templates/single-course/buttons/finish.php:16
+msgid "Finish course"
+msgstr "پایان دوره"
+
+#: inc/custom-post-types/course.php:168
+#: templates/single-course/meta/category.php:15
+msgid "Category"
+msgstr "دسته"
+
+#: inc/custom-post-types/course.php:197 inc/custom-post-types/question.php:183
+#: inc/custom-post-types/question.php:184
+msgid "Tag"
+msgstr "برچسب"
+
+#: inc/custom-post-types/course.php:203
+msgid "Edit Course Tag"
+msgstr "ویرایش برچسب دوره"
+
+#: inc/custom-post-types/course.php:204
+msgid "Update Course Tag"
+msgstr "بروزرسانی برچسب دوره"
+
+#: inc/custom-post-types/course.php:106
+msgctxt "Post Type Singular Name"
+msgid "Course"
+msgstr "دوره"
+
+#: inc/custom-post-types/course.php:108
+msgid "Parent Item:"
+msgstr "زیر مجموعه:"
+
+#: inc/custom-post-types/course.php:110
+msgid "View Course"
+msgstr "مشاهده دوره"
+
+#: inc/custom-post-types/course.php:111
+msgid "Add New Course"
+msgstr "افزودن دوره جدید"
+
+#: inc/custom-post-types/course.php:113
+msgid "Edit Course"
+msgstr "ویرایش دوره"
+
+#: inc/custom-post-types/course.php:114
+msgid "Update Course"
+msgstr "بروزرسانی دوره"
+
+#: inc/custom-post-types/course.php:117
+msgid "No course found in Trash"
+msgstr "دوره در سطل زباله پیدا نشد"
+
+#: inc/admin/views/meta-boxes/course/settings.php:75
+#: inc/admin/views/meta-boxes/lesson/settings.php:17
+#: inc/admin/views/meta-boxes/quiz/settings.php:17
+#: inc/custom-post-types/lesson.php:227 inc/custom-post-types/quiz.php:239
+#: inc/jwt/rest-api/version1/class-lp-rest-courses-v1-controller.php:899
+#: inc/jwt/rest-api/version1/class-lp-rest-lessons-v1-controller.php:483
+#: inc/jwt/rest-api/version1/class-lp-rest-quiz-v1-controller.php:648
+msgid "Duration"
+msgstr "مدت زمان"
+
+#: inc/admin/views/meta-boxes/course/settings.php:149
+msgid "Re-take Course"
+msgstr "شرکت مجدد در دوره"
+
+#: inc/custom-post-types/course.php:535 inc/custom-post-types/course.php:552
+#: templates/emails/order-items-table.php:87
+msgid "Price"
+msgstr "قیمت"
+
+#: inc/custom-post-types/lesson.php:159
+msgid "Add New Lesson"
+msgstr "افزودن درس جدید"
+
+#: inc/custom-post-types/lesson.php:161
+msgid "View Lesson"
+msgstr "نمایش درس"
+
+#: inc/custom-post-types/lesson.php:163
+msgid "Edit Lesson"
+msgstr "ویرایش درس"
+
+#: inc/custom-post-types/lesson.php:164
+msgid "Update Lesson"
+msgstr "بروزرسانی درس"
+
+#: inc/custom-post-types/lesson.php:166
+msgid "No lesson found"
+msgstr "هیچ درسی پیدا نشد"
+
+#: inc/admin/views/meta-boxes/lesson/settings.php:9
+msgid "Lesson Settings"
+msgstr "تنظیمات درس"
+
+#: inc/custom-post-types/lesson.php:278
+msgid "Standard"
+msgstr "استاندارد"
+
+#: inc/custom-post-types/order.php:655 inc/custom-post-types/order.php:814
+#: templates/profile/tabs/orders/list.php:29
+msgid "Order"
+msgstr "سفارش"
+
+#: inc/custom-post-types/order.php:656
+msgid "Student"
+msgstr "دانشجو"
+
+#: inc/admin/views/meta-boxes/order/child-order.php:23
+#: inc/class-lp-gdpr.php:453 inc/custom-post-types/order.php:660
+#: inc/jwt/rest-api/version1/class-lp-rest-courses-v1-controller.php:1139
+#: templates/emails/order-items-table.php:72
+#: templates/emails/plain/order-items-table.php:58
+#: templates/profile/tabs/orders/list.php:31
+msgid "Status"
+msgstr "وضعیت"
+
+#: inc/custom-post-types/order.php:816 inc/custom-post-types/order.php:983
+#: templates/order/order-details.php:20
+msgid "Order Details"
+msgstr "جزئیات سفارش"
+
+#: inc/custom-post-types/order.php:991
+msgid "Order Actions"
+msgstr "عملیات سفارش"
+
+#: inc/custom-post-types/question.php:182
+msgid "Question Tag"
+msgstr "برچسب سوال"
+
+#: inc/custom-post-types/question.php:204
+#: inc/custom-post-types/question.php:205
+msgid "Question Bank"
+msgstr "بانک سوال"
+
+#: inc/custom-post-types/question.php:208
+msgid "View Question"
+msgstr "نمایش سوال"
+
+#: inc/custom-post-types/question.php:212
+msgid "Update Question"
+msgstr "بروزرسانی سوال"
+
+#: inc/custom-post-types/quiz.php:89
+msgid "Edit Quiz"
+msgstr "ویرایش آزمون"
+
+#: inc/admin/editor/class-lp-admin-editor-quiz.php:155
+#: inc/curds/class-lp-quiz-curd.php:88 inc/custom-post-types/quiz.php:92
+msgid "New Quiz"
+msgstr "آزمون جدید"
+
+#: inc/custom-post-types/quiz.php:96
+msgid "No quiz found in Trash"
+msgstr "هیچ آزمونی در سطل زباله پیدا نشد"
+
+#: inc/gateways/paypal/class-lp-gateway-paypal.php:240
+msgid "Error: order ID and key were not found in \"custom\"."
+msgstr "خطا: شناسه سفارش و کلیدی در \"سفارشی\" یافت نشد."
+
+#: inc/gateways/paypal/class-lp-gateway-paypal.php:373
+msgid "IPN payment completed"
+msgstr "پرداخت IPN به پایان رسید"
+
+#: inc/admin/meta-box/fields/image.php:20
+msgid "Select"
+msgstr "انتخاب"
+
+#: inc/order/class-lp-order.php:1118
+msgid "Order on"
+msgstr "سفارش در"
+
+#: inc/order/lp-order-functions.php:705
+msgctxt "Order status"
+msgid "Processing"
+msgstr "در حال پردازش"
+
+#: inc/order/lp-order-functions.php:721
+msgctxt "Order status"
+msgid "Cancelled"
+msgstr "لغو شد"
+
+#: inc/order/lp-order-functions.php:710
+msgid "Processing <span class=\"count\">(%s)</span>"
+msgid_plural "Processing <span class=\"count\">(%s)</span>"
+msgstr[0] "در حال پردازش <span class=\"count\">(%s)</span>"
+
+#: inc/question/class-lp-question.php:375
+msgid "Multi Choice"
+msgstr "چند انتخابی"
+
+#: inc/question/class-lp-question-true-or-false.php:55
+msgid "False"
+msgstr "غلط"
+
+#: inc/user/abstract-lp-user.php:1028 inc/user/abstract-lp-user.php:1274
+#: inc/user/abstract-lp-user.php:1286
+msgid "The role %s for user doesn't exist"
+msgstr "نقش %s برای کاربر وجود ندارد"
+
+#: inc/user/lp-user-functions.php:954
+msgid "You have already enrolled in this course"
+msgstr "اکنون شما در این دوره ثبت نام کرده اید"
+
+#: templates/checkout/review-order.php:85 templates/order/order-details.php:96
+msgid "Subtotal"
+msgstr "جمع جزء"
+
+#: templates/checkout/account-logged-in.php:23
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "با این عنوان وارد شده <a href=\"%1$s\">%2$s</a>."
+
+#: templates/checkout/account-logged-in.php:25
+msgid "Log out of this account"
+msgstr "خروج از این اکانت"
+
+#: templates/checkout/account-logged-in.php:26
+msgid "Log out &raquo;"
+msgstr "خروج &raquo;"
+
+#: templates/global/form-login.php:45
+msgid "Login"
+msgstr "ورود"
+
+#: inc/order/class-lp-order.php:188 inc/order/class-lp-order.php:198
+#: templates/checkout/order-received.php:38
+msgid "Thank you. Your order has been received."
+msgstr "متشکرم. سفارش شما دریافت شد."
+
+#: inc/class-lp-assets.php:88 templates/checkout/payment.php:70
+msgid "Place order"
+msgstr "تکمیل سفارش"
+
+#: inc/class-lp-page-controller.php:156
+msgid "No payment method is available."
+msgstr "هیچ روش پرداختی فعال نیست."
+
+#: templates/order/confirm.php:23
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction."
+msgstr "متاسفانه سفارش شما پردازش نمی شود به عنوان منشاء بانک / تاجر معامله شما کاهش یافته است."
+
+#: templates/order/confirm.php:29
+msgid "Please attempt your purchase again or go to your account page."
+msgstr "لطفا دوباره در خرید خود تلاش کنید یا به صفحه حساب کاربری خود بروید."
+
+#: templates/order/confirm.php:31
+msgid "Please attempt your purchase again."
+msgstr "لطفا دوباره در خرید خود تلاش کنید."
+
+#: inc/admin/views/meta-boxes/order/details.php:191
+#: templates/order/confirm.php:57
+msgid "Total:"
+msgstr "جمع:"
+
+#: templates/order/confirm.php:64
+msgid "Payment Method:"
+msgstr "روش پرداخت:"
+
+#: templates/content-lesson/button-complete.php:56
+msgid "Complete"
+msgstr "تکمیل"
+
+#: templates/single-course/tabs/curriculum-v2.php:31
+#: templates/single-course/tabs/curriculum.php:56
+msgid "Curriculum is empty"
+msgstr "برنامه درسی خالی است"
+
+#: inc/custom-post-types/course.php:105
+msgctxt "Post Type General Name"
+msgid "Courses"
+msgstr "دوره‌ها"
+
+#: inc/custom-post-types/abstract.php:761
+msgid "Remove Filter"
+msgstr "حذف صافی"
+
+#: inc/custom-post-types/question.php:186
+msgid "All Tags"
+msgstr "همه برچسب‌ها"
+
+#: inc/custom-post-types/quiz.php:91
+msgid "View Quiz"
+msgstr "نمایش آزمون"
+
+#: inc/custom-post-types/quiz.php:88
+msgid "Add New Quiz"
+msgstr "افزودن آزمون جدید"
+
+#: inc/admin/settings/class-lp-settings-profile.php:158
+#: inc/custom-post-types/quiz.php:85 inc/custom-post-types/quiz.php:86
+#: inc/custom-post-types/quiz.php:90 inc/user/class-lp-profile.php:253
+#: inc/user/class-lp-profile.php:604 templates/widgets/course-info.php:30
+msgid "Quizzes"
+msgstr "آزمون‌ها"
+
+#: inc/admin/lp-admin-actions.php:216 inc/custom-post-types/course.php:555
+msgid "Categories"
+msgstr "دسته‌ها"
+
+#: inc/custom-post-types/course.php:170
+msgid "All Categories"
+msgstr "همه دسته‌ها"
+
+#: inc/admin/lp-admin-actions.php:221
+msgid "Tags"
+msgstr "برچسب‌ها"
+
+#: inc/custom-post-types/course.php:198
+msgid "Search Course Tags"
+msgstr "جست‌وجوی برچسب‌های دوره"
+
+#: inc/custom-post-types/course.php:196 inc/custom-post-types/course.php:210
+msgid "Course Tags"
+msgstr "برچسب‌های دوره"
+
+#: inc/custom-post-types/course.php:205
+msgid "Add New Course Tag"
+msgstr "افزودن برچسب دوره"
+
+#: inc/custom-post-types/course.php:164 inc/custom-post-types/course.php:166
+msgid "Course Categories"
+msgstr "دسته‌های دوره"
+
+#: inc/custom-post-types/course.php:169
+msgid "Add New Course Category"
+msgstr "افزودن دسته دوره"
+
+#: inc/custom-post-types/course.php:116
+msgid "You haven't had any courses yet. Click <a href=\"%s\">Add new</a> to start"
+msgstr "شما هنوز دوره‌ای ندارید. برای شروع روی <a href=\"%s\">افزودن</a> کلیک کنید"
+
+#: inc/class-lp-breadcrumb.php:365
+msgid "Author: %s"
+msgstr "مدرس: %s"
+
+#: inc/custom-post-types/course.php:207
+msgid "Separate tags with commas"
+msgstr "برچسب‌ها را با ویرگول لاتین (,) جدا کنید"
+
+#: inc/lp-webhooks.php:90
+msgid "LearnPress webhook process Complete"
+msgstr "فرایند وب هوک لرن پرس تکمیل شد"
+
+#: inc/custom-post-types/course.php:220
+msgctxt "slug"
+msgid "course-tag"
+msgstr "course-tag"
+
+#: inc/custom-post-types/course.php:182
+msgctxt "slug"
+msgid "course-category"
+msgstr "course-category"
+
+#: inc/custom-post-types/course.php:628
+msgid "No content"
+msgstr "بدون محتوا"
+
+#: inc/custom-post-types/course.php:209
+msgid "Choose from the most used tags"
+msgstr "انتخاب از برچسب‌های بیشتر استفاده شده"
+
+#: inc/custom-post-types/lesson.php:226
+msgid "Format"
+msgstr "ساختار"
+
+#: inc/admin/views/meta-boxes/lesson/settings.php:29
+#: inc/custom-post-types/abstract.php:991 inc/custom-post-types/lesson.php:130
+#: inc/custom-post-types/lesson.php:230 inc/lp-template-functions.php:1091
+#: templates/loop/single-course/loop-section-item.php:31
+#: templates/single-course/section/item-meta.php:28
+msgid "Preview"
+msgstr "پیش‌نمایش"
+
+#: inc/custom-post-types/quiz.php:95
+msgid "You haven't had any quizzes yet. Click <a href=\"%s\">Add new</a> to start"
+msgstr "شما هنوز آزمونی ندارید. برای شروع روی <a href=\"%s\">افزودن</a> کلیک کنید"
+
+#: inc/custom-post-types/question.php:215
+msgid "No questions found in trash"
+msgstr "هیچ سوالی در زباله‌دان یافت نشد"
+
+#: inc/admin/views/meta-boxes/course/assigned.php:29
+#: inc/admin/views/meta-boxes/quiz/assigned.php:48
+#: inc/custom-post-types/abstract.php:767
+#: inc/custom-post-types/question.php:372
+msgid "Not assigned yet"
+msgstr "هنوز اختصاص داده نشده"
+
+#: inc/custom-post-types/question.php:209
+msgid "Add New Question"
+msgstr "افزودن سوال جدید"
+
+#: inc/custom-post-types/course.php:115
+msgid "Search Courses"
+msgstr "جست‌و‌جوی دوره‌ها"
+
+#: inc/custom-post-types/question.php:213
+msgid "Search Questions"
+msgstr "جست‌و‌جوی سوالات"
+
+#: inc/admin/views/dashboard/plugin-status/html-results.php:36
+msgid "Published"
+msgstr "منتشر شد"
+
+#: inc/admin/class-lp-install-sample-data.php:158
+#: inc/admin/views/meta-boxes/course/assigned.php:23
+#: inc/admin/views/meta-boxes/quiz/assigned.php:28
+#: inc/admin/views/meta-boxes/quiz/assigned.php:37
+#: inc/admin/views/user/courses.php:20 inc/custom-post-types/abstract.php:749
+#: inc/custom-post-types/abstract.php:970
+#: inc/custom-post-types/abstract.php:979
+#: inc/custom-post-types/question.php:369 inc/order/class-lp-order.php:946
+msgid "View"
+msgstr "نمایش"
+
+#: inc/question/class-lp-question-true-or-false.php:49
+msgid "True"
+msgstr "صحیح"
+
+#: inc/question/class-lp-question.php:374
+msgid "True Or False"
+msgstr "صحیح یا غلط"
+
+#: inc/admin/helpers/class-lp-plugins-helper.php:257
+#: inc/admin/helpers/class-lp-plugins-helper.php:266
+msgid "Enable Now"
+msgstr "اکنون فعال کن"
+
+#: inc/admin/helpers/class-lp-plugins-helper.php:255
+#: inc/admin/helpers/class-lp-plugins-helper.php:264
+msgid "Disable Now"
+msgstr "اکنون غیرفعال کن"
+
+#: inc/admin/helpers/class-lp-plugins-helper.php:255
+#: inc/admin/helpers/class-lp-plugins-helper.php:264
+msgid "Disable %s now"
+msgstr "اکنون %s غیرفعال کن"
+
+#: inc/lp-core-functions.php:1036
+msgid "Left with space"
+msgstr "چپ با فاصله"
+
+#: inc/lp-core-functions.php:1037
+msgid "Right with space"
+msgstr "راست با فاصله"
+
+#: inc/custom-post-types/quiz.php:93
+msgid "Update Quiz"
+msgstr "بروزرسانی آزمون"
+
+#: inc/lp-deprecated.php:2258
+msgid "Back to class"
+msgstr "بازگشت به کلاس"
+
+#: inc/class-lp-checkout.php:684 templates/checkout/empty-cart.php:16
+msgid "Your cart is currently empty."
+msgstr "در‌حال حاضر سبد‌خرید شما خالی است"
+
+#: inc/custom-post-types/lesson.php:167
+msgid "No lesson found in Trash"
+msgstr "هیچ درسی در زباله‌دان پیدا نشد"
+
+#: inc/class-lp-checkout.php:305 inc/class-lp-checkout.php:309
+#: inc/user/class-lp-profile.php:286 templates/checkout/account-login.php:30
+#: templates/checkout/account-login.php:31
+#: templates/checkout/account-register.php:32
+#: templates/checkout/account-register.php:33
+#: templates/checkout/account-register.php:37
+#: templates/global/form-login.php:31 templates/global/form-login.php:32
+#: templates/global/form-register.php:36 templates/global/form-register.php:37
+#: templates/global/form-register.php:41
+msgid "Password"
+msgstr "کلمه عبور"
+
+#: inc/class-lp-breadcrumb.php:124
+msgid "Error 404"
+msgstr "خطای 404"
+
+#: inc/custom-post-types/question.php:185
+msgid "Add New Tag"
+msgstr "افزودن برچسب جدید"
+
+#: inc/custom-post-types/course.php:208
+msgid "Add or remove tags"
+msgstr "افزودن یا حذف برچسب‌ها"
+
+#: inc/custom-post-types/course.php:206
+msgid "New Course Tag Name"
+msgstr "نام برچسب دوره جدید"
+
+#: inc/quiz/class-lp-quiz.php:589
+msgid "Congrats! You have finished this quiz"
+msgstr "تبریک! شما آزمون را به پایان رساندید"
+
+#: inc/user/lp-user-functions.php:403
+msgid "Want to become an instructor?"
+msgstr "میخواهید به یک مدرس تبدیل شوید ؟"
+
+#: inc/admin/views/meta-boxes/course/settings.php:388
+msgid "<br /><strong>Note! </strong>No final quiz in course, please add a final quiz"
+msgstr "<br /><strong>توجه!</strong>هیچ آزمون نهایی در دوره وجود ندارد، لطفا یک آزمون نهایی اضافه کنید"
+
+#: inc/shortcodes/class-lp-shortcode-become-a-teacher.php:114
+msgid "Fill in your information and send us to become a teacher."
+msgstr "برای مدرس شدن اطلاعات خود را تکمیل کرده و برای ما ارسال فرمایید."
+
+#: inc/admin/class-lp-admin.php:307 inc/admin/views/setup/steps/pages.php:49
+#: inc/shortcodes/class-lp-shortcode-become-a-teacher.php:113
+msgid "Become a Teacher"
+msgstr "تبدیل شدن به یک مدرس"
+
+#: inc/custom-post-types/order.php:657 inc/lp-deprecated.php:372
+msgid "Purchased"
+msgstr "خریداری شده"
+
+#: inc/quiz/class-lp-quiz.php:582
+msgid "Retake quiz"
+msgstr "شرکت مجدد در آزمون"
+
+#: inc/shortcodes/class-lp-shortcode-become-a-teacher.php:98
+msgid "You are a teacher now."
+msgstr "اکنون شما یک مدرس هستید."
+
+#: inc/custom-post-types/course.php:200
+msgid "All Course Tags"
+msgstr "همه برچسب‌های دوره"
+
+#: inc/custom-post-types/course.php:199
+msgid "Popular Course Tags"
+msgstr "محبوب‌ترین برچسب‌های دوره"
+
+#: inc/quiz/class-lp-quiz.php:583
+msgid "Are you sure you want to retake this quiz?"
+msgstr "آیا شما مطمئن هستید که میخواهید که در این آزمون مجددا شرکت کنید؟"
+
+#: inc/quiz/class-lp-quiz.php:587
+msgid "The time is up! Your quiz will automate come to finish"
+msgstr "وقت تمام شد! آزمون شما به طور خودکار به پایان خواهد رسید"
+
+#: inc/quiz/class-lp-quiz.php:590
+msgid "Congrats! You have re-taken this quiz. Please wait a moment and the page will reload"
+msgstr "تبریک! این آزمون بازپس گیری شد. لطفا دقایقی صبر کنید و سپس صفحه را دوباره لود کنید"
+
+#: inc/custom-post-types/quiz.php:94
+msgid "Search Quizzes"
+msgstr "جستجو آزمون‌ها"
+
+#: inc/custom-post-types/lesson.php:165
+msgid "Search Lessons"
+msgstr "جستجو درس‌ها"
+
+#: inc/custom-post-types/lesson.php:156 inc/custom-post-types/lesson.php:157
+#: inc/custom-post-types/lesson.php:160 templates/widgets/course-info.php:25
+msgid "Lessons"
+msgstr "درس‌"
+
+#: inc/question/class-lp-question.php:376
+msgid "Single Choice"
+msgstr "انتخاب واحد"
+
+#. translators: user role
+#: inc/user/lp-user-functions.php:165
+msgctxt "User role"
+msgid "LP Instructor"
+msgstr "مدرس لرن‌ پرس"
+
+#: inc/admin/sub-menus/class-lp-submenu-statistics.php:27
+msgid "Users"
+msgstr "کاربران"
+
+#: inc/admin/lp-admin-functions.php:1225 inc/admin/lp-admin-functions.php:2373
+#: inc/admin/views/statistics/courses.php:45
+#: inc/admin/views/statistics/general.php:62
+msgid "Paid"
+msgstr "پرداخت شده"
+
+#: inc/admin/lp-admin-functions.php:1230 inc/admin/lp-admin-functions.php:2378
+#: inc/admin/views/statistics/courses.php:46
+#: inc/admin/views/statistics/general.php:63 inc/course/abstract-course.php:850
+#: inc/course/abstract-course.php:880 templates/order/order-details.php:43
+msgid "Free"
+msgstr "رایگان"
+
+#: inc/admin/settings/class-lp-settings-profile.php:118
+#: inc/admin/views/quiz/editor.php:48 inc/custom-post-types/question.php:324
+#: inc/widgets/course-extra.php:30
+msgid "Type"
+msgstr "نوع"
+
+#: inc/admin/settings/email-groups/class-lp-settings-new-order-emails.php:24
+msgid "New Order"
+msgstr "سفارش جدید"
+
+#: inc/admin/settings/class-lp-settings-emails.php:153
+msgid "Header image"
+msgstr "تصویر سربرگ"
+
+#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:104
+#: inc/admin/views/meta-boxes/order/details.php:156
+#: inc/custom-post-types/order.php:659
+#: templates/checkout/order-received.php:107
+#: templates/checkout/review-order.php:99
+#: templates/emails/order-items-table.php:118
+#: templates/emails/plain/order-items-table.php:88
+#: templates/order/order-details.php:26 templates/order/order-details.php:100
+#: templates/profile/tabs/orders/list.php:30
+msgid "Total"
+msgstr "جمع"
+
+#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:72
+#: inc/admin/views/meta-boxes/order/details.php:154
+msgid "Cost"
+msgstr "هزینه"
+
+#: inc/admin/class-lp-admin-assets.php:31
+#: inc/emails/guest/class-lp-email-cancelled-order-guest.php:25
+#: inc/emails/guest/class-lp-email-completed-order-guest.php:29
+#: inc/emails/guest/class-lp-email-new-order-guest.php:25
+#: inc/emails/guest/class-lp-email-processing-order-guest.php:22
+#: inc/emails/types/class-lp-email-type-order-admin.php:47
+msgid "Guest"
+msgstr "مهمان"
+
+#: inc/admin/views/meta-boxes/order/actions.php:31
+msgid "Move to Trash"
+msgstr "انتقال به سطل زباله"
+
+#: inc/admin/views/meta-boxes/order/child-order.php:21
+#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:37
+#: inc/admin/views/meta-boxes/order/details.php:226
+#: inc/admin/views/meta-boxes/order/details.php:235
+#: inc/admin/views/meta-boxes/order/exports-invoice.php:78
+msgid "Customer"
+msgstr "مشتری"
+
+#: inc/admin/class-lp-modal-search-items.php:60
+#: inc/admin/class-lp-modal-search-users.php:48
+#: inc/admin/views/course/modal-choose-items.php:92
+#: inc/admin/views/quiz/modal-choose-items.php:83
+msgid "Add"
+msgstr "اضافه کردن"
+
+#: inc/admin/views/statistics/courses.php:36
+#: inc/admin/views/statistics/general.php:53
+#: inc/admin/views/statistics/orders.php:38
+#: inc/admin/views/statistics/users.php:40
+msgid "Go"
+msgstr "برو"
+
+#: inc/admin/settings/class-lp-settings-advanced.php:79
+#: inc/admin/settings/class-lp-settings-courses.php:185
+#: inc/course/lp-course-functions.php:455
+#: inc/custom-post-types/question.php:323 inc/custom-post-types/quiz.php:87
+#: inc/lp-core-functions.php:418 inc/lp-template-functions.php:1078
+#: templates/profile/tabs/quizzes.php:54
+msgid "Quiz"
+msgstr "آزمون"
+
+#: inc/admin/lp-admin-functions.php:246
+msgid "Select Page"
+msgstr "انتخاب صفحه"
+
+#: inc/admin/class-lp-upgrader.php:29
+msgid "The package could not be installed."
+msgstr "این بسته نمی‌تواند نصب شود."
+
+#: inc/admin/class-lp-plugin-install-list-table.php:510
+#: inc/admin/views/addons/html-loop-plugin.php:56
+msgid "<strong>Compatible</strong> with your version of WordPress"
+msgstr "با نگارش وردپرس شما <strong>سازگار است</strong>"
+
+#: inc/admin/class-lp-plugin-install-list-table.php:506
+#: inc/admin/views/addons/html-loop-plugin.php:52
+msgid "Untested with your version of WordPress"
+msgstr "با نگارش وردپرس شما آزمایش نشده است"
+
+#: inc/admin/class-lp-plugin-install-list-table.php:490
+#: inc/class-lp-datetime.php:209 inc/custom-post-types/order.php:751
+#: inc/order/class-lp-order.php:150 inc/user-item/class-lp-user-item.php:240
+msgid "%s ago"
+msgstr "%s قبل"
+
+#: inc/admin/class-lp-plugin-install-list-table.php:326
+msgctxt "Plugin installer group title"
+msgid "Tools"
+msgstr "ابزارها"
+
+#: inc/admin/class-lp-plugin-install-list-table.php:324
+msgctxt "Plugin installer group title"
+msgid "Performance"
+msgstr "کارایی"
+
+#: inc/admin/class-lp-plugin-install-list-table.php:177
+msgid "No plugin found."
+msgstr "افزونه‌ای یافت نشد."
+
+#: inc/admin/class-lp-admin-ajax.php:948 inc/admin/class-lp-admin-ajax.php:1141
+msgid "View Page"
+msgstr "نمایش برگه"
+
+#: inc/admin/class-lp-admin-ajax.php:705
+msgid "Permission denied"
+msgstr "دسترسی امکان پذیر نیست"
+
+#: inc/admin/class-lp-admin-ajax.php:947 inc/admin/class-lp-admin-ajax.php:1139
+msgid "Edit Page"
+msgstr "ویرایش برگه"
+
+#: inc/admin/lp-admin-functions.php:1431
+#: inc/admin/views/statistics/orders.php:64 inc/class-lp-gdpr.php:463
+#: inc/user-item/class-lp-user-item-quiz.php:144
+#: inc/user-item/class-lp-user-item.php:809
+#: templates/content-lesson/button-complete.php:37
+msgid "Completed"
+msgstr "تکمیل شده"
+
+#: inc/admin/class-lp-plugin-install-list-table.php:447
+msgid "Enabled"
+msgstr "فعال"
+
+#. translators: 1: Plugin name and version.
+#: inc/admin/class-lp-plugin-install-list-table.php:390
+#: inc/admin/helpers/class-lp-plugins-helper.php:241
+msgid "Install %s now"
+msgstr "اکنون %s را نصب کنید"
+
+#. translators: 1: Plugin name and version
+#: inc/admin/class-lp-plugin-install-list-table.php:397
+#: inc/admin/helpers/class-lp-plugins-helper.php:248
+msgid "Update %s now"
+msgstr "اکنون %s را بروزرسانی کن"
+
+#. translators: 1: Plugin name and version
+#: inc/admin/class-lp-plugin-install-list-table.php:397
+#: inc/admin/helpers/class-lp-plugins-helper.php:248
+msgid "Update Now"
+msgstr "اکنون بروزرسانی کن"
+
+#: inc/admin/lp-admin-functions.php:1016 inc/admin/lp-admin-functions.php:1210
+#: inc/admin/lp-admin-functions.php:1426 inc/admin/lp-admin-functions.php:2358
+#: inc/admin/views/statistics/courses.php:27
+#: inc/admin/views/statistics/courses.php:42
+#: inc/admin/views/statistics/general.php:43
+#: inc/admin/views/statistics/general.php:59
+#: inc/admin/views/statistics/orders.php:29
+#: inc/admin/views/statistics/orders.php:63
+#: inc/admin/views/statistics/users.php:30
+#: inc/admin/views/statistics/users.php:46 inc/lp-deprecated.php:370
+#: inc/lp-deprecated.php:402 inc/templates/class-lp-template-profile.php:100
+#: inc/templates/class-lp-template-profile.php:111
+#: inc/user/class-lp-profile.php:836 inc/user/class-lp-profile.php:868
+#: inc/user/class-lp-profile.php:902 templates/widgets/course-info.php:35
+msgid "All"
+msgstr "همه"
+
+#: inc/admin/settings/class-lp-settings-advanced.php:72
+#: inc/admin/settings/class-lp-settings-courses.php:177
+#: inc/course/lp-course-functions.php:454 inc/custom-post-types/lesson.php:158
+#: inc/lp-core-functions.php:417 inc/lp-template-functions.php:1088
+msgid "Lesson"
+msgstr "درس"
+
+#: inc/lp-core-functions.php:2378
+msgid "Enable cart"
+msgstr "فعال کردن سبد خرید"
+
+#: inc/lp-core-functions.php:2379
+msgid "Check this option to enable user purchase multiple courses at one time."
+msgstr "این گزینه برای فعال کردن خرید کاربران دوره های متعدد در یک زمان، بررسی می کند."
+
+#: inc/lp-core-functions.php:2388
+msgid "Add to cart redirect"
+msgstr "تغییر مسیر افزودن به سبد خرید"
+
+#: inc/lp-core-functions.php:2389
+msgid "Redirect to checkout immediately after adding course to cart."
+msgstr "تغییر مسیر به صفحه پرداخت بلافاصله پس از اضافه کردن دوره به سبد خرید."
+
+#: inc/lp-core-functions.php:2395
+msgid "AJAX add to cart"
+msgstr "اضافه کردن به سبد خرید به صورت AJAX"
+
+#: inc/lp-core-functions.php:2402
+msgid "Cart page"
+msgstr "صفحه سبد خرید"
+
+#: inc/admin/class-lp-install-sample-data.php:160 inc/attributes/course.php:243
+#: inc/custom-post-types/abstract.php:747
+#: inc/custom-post-types/question.php:367
+#: templates/content-lesson/content.php:20 assets/js/dist/frontend/quiz.js:1587
+#: assets/src/apps/js/frontend/quiz/components/questions/question.js:87
+msgid "Edit"
+msgstr "ویرایش"
+
+#: inc/admin/class-lp-modal-search-items.php:232
+#: inc/admin/class-lp-modal-search-users.php:201
+msgid "No item found"
+msgstr "هیچ موضوع پیدا نشد"
+
+#: inc/custom-post-types/question.php:214
+msgid "No questions found"
+msgstr "هیچ سوالی پیدا نشد."
+
+#: inc/admin/class-lp-admin-ajax.php:654
+msgid "Check nonce failed"
+msgstr "بررسی فعلی شکست خورده است"
+
+#: inc/admin/class-lp-admin-menu.php:87
+msgid "Learning Management System"
+msgstr "سیستم مدیریت آموزش"
+
+#: inc/admin/sub-menus/class-lp-submenu-statistics.php:15
+msgid "Statistics"
+msgstr "آمار"
+
+#: inc/admin/class-lp-plugin-install-list-table.php:325
+msgctxt "Plugin installer group title"
+msgid "Social"
+msgstr "شبکه اجتماعی"
+
+#: inc/admin/class-lp-plugin-install-list-table.php:369
+msgid "By %s"
+msgstr "توسط %s"
+
+#: inc/admin/class-lp-plugin-install-list-table.php:404
+msgctxt "plugin"
+msgid "Enabled"
+msgstr "فعال"
+
+#: inc/admin/class-lp-plugin-install-list-table.php:452
+msgid "Not Install"
+msgstr "نصب نشده"
+
+#: inc/admin/class-lp-upgrader.php:15
+msgid "Could not access filesystem."
+msgstr "به فایل های سیستم نمی تواند دسترسی پیدا کند."
+
+#: inc/admin/class-lp-upgrader.php:16
+msgid "Filesystem error."
+msgstr "خطای سیستم فایل."
+
+#: inc/admin/class-lp-upgrader.php:24
+msgid "Download failed."
+msgstr "دانلود نشد."
+
+#: inc/admin/class-lp-upgrader.php:25
+msgid "Installing the latest version&#8230;"
+msgstr "نصب آخرین نسخه &#8230;"
+
+#: inc/admin/class-lp-upgrader.php:26
+msgid "The package contains no files."
+msgstr "این بسته شامل هیچ فایلی نیست."
+
+#: inc/admin/class-lp-upgrader.php:27
+msgid "Destination folder already exists."
+msgstr "پوشه مقصد وجود دارد."
+
+#: inc/admin/class-lp-upgrader.php:28
+msgid "Could not create directory."
+msgstr "نمی تواند دایرکتوری ایجاد کند."
+
+#: inc/admin/class-lp-upgrader.php:31
+msgid "Enabling Maintenance mode&#8230;"
+msgstr "فعال کردن حالت تعمیر و نگهداری &#8230;"
+
+#: inc/admin/class-lp-upgrader.php:32
+msgid "Disabling Maintenance mode&#8230;"
+msgstr "غیر فعال کردن حالت تعمیر و نگهداری &#8230;"
+
+#: inc/admin/lp-admin-functions.php:304
+msgid "Cancel [ESC]"
+msgstr "لغو [ESC]"
+
+#: inc/admin/lp-admin-functions.php:1021
+#: inc/admin/views/statistics/courses.php:9
+#: inc/admin/views/statistics/general.php:9
+#: inc/admin/views/statistics/orders.php:9
+#: inc/admin/views/statistics/users.php:9
+#: inc/admin/views/statistics/users.php:47
+msgid "Instructors"
+msgstr "مدرسان"
+
+#: inc/admin/lp-admin-functions.php:1215 inc/admin/lp-admin-functions.php:2363
+#: inc/templates/class-lp-template-profile.php:112
+#: inc/user/class-lp-profile.php:837
+msgid "Publish"
+msgstr "انتشار"
+
+#: inc/admin/lp-admin-functions.php:1220 inc/admin/lp-admin-functions.php:1436
+#: inc/admin/lp-admin-functions.php:2368
+#: inc/admin/views/statistics/courses.php:44
+#: inc/admin/views/statistics/general.php:61
+#: inc/admin/views/statistics/orders.php:65
+#: inc/templates/class-lp-template-profile.php:113
+#: inc/user/class-lp-profile.php:838
+msgid "Pending"
+msgstr "در انتظار"
+
+#: inc/admin/lp-admin-functions.php:1464
+msgid "Pending Courses / Publish Courses"
+msgstr "در انتظار دوره های آموزشی/انتشار دوره ها"
+
+#: inc/admin/lp-admin-functions.php:57
+#: inc/admin/meta-box/fields/course-permalink.php:27
+#: inc/admin/settings/class-lp-settings-advanced.php:65
+#: inc/admin/settings/class-lp-settings-courses.php:171
+#: inc/admin/views/statistics/orders.php:48 inc/admin/views/user/courses.php:39
+#: inc/custom-post-types/abstract.php:720 inc/custom-post-types/quiz.php:237
+#: templates/emails/order-items-table.php:85
+#: templates/order/order-details.php:25
+msgid "Course"
+msgstr "دوره"
+
+#: inc/admin/settings/class-lp-settings-general.php:57
+msgid "Checkout page"
+msgstr "صفحه پرداخت"
+
+#: inc/admin/meta-box/fields/course-permalink.php:16
+#: inc/admin/settings/class-lp-settings-courses.php:43
+msgctxt "default-slug"
+msgid "courses"
+msgstr "courses"
+
+#: inc/admin/settings/class-lp-settings-courses.php:107
+msgid "Number of courses displayed per page."
+msgstr "تعداد دوره های نمایش داده در هر صفحه."
+
+#: inc/admin/settings/class-lp-settings-general.php:51
+msgid "Profile page"
+msgstr "صفحه پروفایل"
+
+#: inc/admin/class-lp-admin.php:305
+#: inc/admin/settings/class-lp-settings-profile.php:24
+#: inc/admin/views/meta-boxes/order/details.php:101
+#: inc/admin/views/setup/steps/pages.php:31
+msgid "Profile"
+msgstr "مشخصات"
+
+#: inc/admin/views/user/courses.php:43
+msgid "Results"
+msgstr "نتایج"
+
+#: inc/admin/views/course/modal-choose-items.php:71
+msgid "Type here to search item"
+msgstr "اینجا تایپ کنید آیتم را جستجو کنید"
+
+#: inc/admin/views/quiz/modal-choose-items.php:64
+msgid "Type here to search question"
+msgstr "برای جستجوی درس اینجا تایپ کنید"
+
+#: inc/custom-post-types/course.php:112 inc/custom-post-types/lesson.php:162
+#: inc/custom-post-types/order.php:819 inc/custom-post-types/question.php:210
+msgid "Add New"
+msgstr "افزودن"
+
+#: templates/courses-top-bar.php:30
+msgid "Switch to %s"
+msgstr "تغییر به %s"
+
+#: inc/admin/meta-box/fields/image-advanced.php:25
+#: inc/admin/meta-box/fields/image-advanced.php:38
+#: inc/admin/meta-box/fields/image.php:21 inc/admin/views/course/section.php:48
+#: inc/admin/views/question/fib-answer-editor.php:24
+#: inc/admin/views/question/option.php:22
+#: inc/admin/views/tools/database/html-clean-database.php:42
+msgid "Delete"
+msgstr "حذف"
+
+#: inc/class-lp-gdpr.php:173
+msgid "Order status"
+msgstr "وضعیت سفارش"
+
+#: inc/admin/views/meta-boxes/order/actions.php:29
+msgid "Delete Permanently"
+msgstr "حذف برای همیشه"
+
+#: inc/custom-post-types/order.php:794
+msgid "Pay via <strong>%s</strong>"
+msgstr "پرداخت از طریق <strong>%s</strong>"
+
+#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:71
+#: inc/admin/views/meta-boxes/order/details.php:153
+#: inc/custom-post-types/course.php:79
+#: inc/gateways/paypal/class-lp-gateway-paypal.php:428
+#: templates/checkout/order-received.php:60
+msgid "Item"
+msgstr "مورد"
+
+#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:73
+#: inc/admin/views/meta-boxes/order/details.php:155
+#: templates/emails/order-items-table.php:86
+msgid "Quantity"
+msgstr "مقدار"
+
+#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:74
+msgid "Amount"
+msgstr "میزان"
+
+#: inc/admin/views/meta-boxes/order/details.php:170
+msgid "No order items"
+msgstr "هیچ آیتمی سفارش"
+
+#: inc/admin/views/meta-boxes/order/content-tab-preview-exports-invoice.php:98
+msgid "Sub Total"
+msgstr "زیر مجموع"
+
+#: inc/admin/views/meta-boxes/order/details.php:263
+msgid "Type here to search the course"
+msgstr "برای جستجوی دوره اینجا تایپ کنید"
+
+#: inc/admin/views/quiz/modal-choose-items.php:55
+#: inc/custom-post-types/question.php:207 inc/custom-post-types/quiz.php:175
+#: inc/custom-post-types/quiz.php:238 inc/custom-post-types/quiz.php:439
+#: assets/js/dist/frontend/quiz.js:197 assets/js/dist/frontend/quiz.js:2013
+#: assets/src/apps/js/frontend/quiz/components/attempts/index.js:21
+#: assets/src/apps/js/frontend/quiz/components/result/index.js:200
+msgid "Questions"
+msgstr "سوالات"
+
+#: inc/emails/class-lp-email.php:1047
+msgid "Subject"
+msgstr "موضوع"
+
+#: inc/lp-deprecated.php:2289
+#: templates/global/become-teacher-form/form-fields.php:32
+msgid "Message"
+msgstr "پیام"
+
+#: inc/admin/settings/class-lp-settings-emails.php:159
+msgid "Footer text"
+msgstr "متن پانوشت"
+
+#: inc/admin/views/statistics/courses.php:18
+#: inc/admin/views/statistics/general.php:33
+#: inc/admin/views/statistics/orders.php:20
+#: inc/admin/views/statistics/users.php:20
+msgid "Last 7 Days"
+msgstr "7 روز گذشته"
+
+#: inc/admin/views/statistics/courses.php:21
+#: inc/admin/views/statistics/general.php:36
+#: inc/admin/views/statistics/orders.php:23
+#: inc/admin/views/statistics/users.php:23
+msgid "Last 30 Days"
+msgstr "30 روز گذشته"
+
+#: inc/admin/views/statistics/courses.php:24
+#: inc/admin/views/statistics/general.php:40
+#: inc/admin/views/statistics/orders.php:26
+#: inc/admin/views/statistics/users.php:27
+msgid "Last 12 Months"
+msgstr "12 ماه گذشته"
+
+#: inc/admin/views/statistics/courses.php:33
+#: inc/admin/views/statistics/general.php:49
+#: inc/admin/views/statistics/orders.php:35
+#: inc/admin/views/statistics/users.php:36
+msgid "To"
+msgstr "به"
+
+#: inc/admin/views/statistics/courses.php:43
+#: inc/admin/views/statistics/general.php:60
+msgid "Public"
+msgstr "عمومی"
+
+#: inc/admin/class-lp-admin.php:241
+#: inc/admin/views/meta-boxes/fields/date.php:35 inc/class-lp-assets.php:73
+#: inc/lp-core-functions.php:2170 inc/lp-core-functions.php:3188
+#: inc/order/class-lp-order.php:954 assets/js/dist/frontend/modal.js:174
+#: assets/src/apps/js/frontend/modal/index.js:44
+msgid "Cancel"
+msgstr "انصراف"
+
+#: inc/admin/sub-menus/class-lp-submenu-addons.php:14
+#: inc/class-lp-multi-language.php:32
+msgid "Add-ons"
+msgstr "افزودنی‌ها"
+
+#: inc/admin/views/statistics/courses.php:31
+#: inc/admin/views/statistics/general.php:47
+#: inc/admin/views/statistics/orders.php:33
+#: inc/admin/views/statistics/users.php:34
+msgid "From"
+msgstr "از"
+
+#: inc/admin/class-lp-admin.php:304 inc/admin/lp-admin-actions.php:211
+#: inc/admin/settings/class-lp-settings-courses.php:13
+#: inc/admin/settings/class-lp-settings-profile.php:150
+#: inc/admin/sub-menus/class-lp-submenu-statistics.php:21
+#: inc/admin/sub-menus/class-lp-submenu-statistics.php:28
+#: inc/admin/views/setup/steps/pages.php:22
+#: inc/admin/views/tools/course/html-user.php:30
+#: inc/class-lp-page-controller.php:89 inc/custom-post-types/course.php:107
+#: inc/custom-post-types/course.php:109 inc/lp-template-functions.php:363
+#: inc/user/class-lp-profile.php:246 inc/user/class-lp-profile.php:597
+msgid "Courses"
+msgstr "دوره‌ها"
+
+#: inc/admin/class-lp-plugin-install-list-table.php:449
+msgid "Disabled"
+msgstr "غیرفعال"
+
+#: inc/admin/sub-menus/class-lp-submenu-addons.php:15
+msgid "LearnPress Add-ons"
+msgstr "افزودنی‌های لرن‌پرس"
+
+#: inc/admin/sub-menus/class-lp-submenu-settings.php:48
+msgid "Save settings"
+msgstr "ذخیره تنظیمات"
+
+#. Plugin Name of the plugin
+#: inc/admin/class-lp-admin.php:133 inc/admin/class-lp-admin.php:137
+#: inc/admin/lp-admin-functions.php:1758
+#: inc/admin/settings/class-lp-settings-emails.php:161 inc/class-lp-gdpr.php:31
+#: inc/elementor/class-lp-elementor.php:36
+msgid "LearnPress"
+msgstr "لرن‌پرس"
+
+#: inc/admin/settings/class-lp-settings-profile.php:166
+#: inc/admin/sub-menus/class-lp-submenu-statistics.php:22
+#: inc/admin/sub-menus/class-lp-submenu-statistics.php:29
+#: inc/class-lp-gdpr.php:183 inc/custom-post-types/order.php:812
+#: inc/custom-post-types/order.php:813 inc/custom-post-types/order.php:817
+#: inc/user/class-lp-profile.php:260
+msgid "Orders"
+msgstr "سفارشات"
+
+#: inc/admin/meta-box/fields/course-permalink.php:17
+msgctxt "default-slug"
+msgid "course"
+msgstr "course"
+
+#: inc/admin/meta-box/fields/course-permalink.php:22
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: inc/admin/lp-admin-functions.php:1026
+#: inc/admin/views/statistics/courses.php:8
+#: inc/admin/views/statistics/general.php:8
+#: inc/admin/views/statistics/orders.php:8
+#: inc/admin/views/statistics/users.php:8
+#: inc/admin/views/statistics/users.php:48 inc/custom-post-types/course.php:534
+#: inc/custom-post-types/course.php:551
+#: assets/js/dist/admin/pages/tools.js:1184
+#: assets/src/apps/js/admin/pages/tools/reset-data/course.js:156
+msgid "Students"
+msgstr "دانشجویان"
+
+#: inc/custom-post-types/course.php:647 inc/lp-template-functions.php:67
+msgid "Curriculum"
+msgstr "برنامه آموزشی"
+
+#: inc/admin/class-lp-modal-search-items.php:61
+#: inc/admin/class-lp-modal-search-users.php:49
+#: inc/admin/views/course/modal-choose-items.php:66
+#: inc/admin/views/meta-boxes/order/details.php:268
+#: inc/admin/views/quiz/modal-choose-items.php:58
+msgid "Close"
+msgstr "بستن"
+
+#: inc/admin/views/quiz/question-answer.php:29
+msgid "Add option"
+msgstr "افزودن گزینه"
+
+#: inc/admin/views/tools/database/html-remove-database.php:23
+#: inc/admin/views/tools/database/html-remove-outdated-data.php:23
+#: assets/js/dist/frontend/profile.js:550
+#: assets/src/apps/js/admin/react/question/index.js:313
+#: assets/src/apps/js/frontend/profile/avatar.js:201
+msgid "Remove"
+msgstr "حذف"
+
+#: inc/admin/class-lp-plugin-install-list-table.php:489
+msgid "Last Updated:"
+msgstr "تازه‌ترین بروزرسانی:"
+
+#: inc/admin/class-lp-plugin-install-list-table.php:508
+#: inc/admin/views/addons/html-loop-plugin.php:54
+msgid "<strong>Incompatible</strong> with your version of WordPress"
+msgstr "با نگارش وردپرس شما <strong>سازگار نیست</strong>"
+
+#: inc/admin/class-lp-plugin-install-list-table.php:496
+msgctxt "Active plugin installs"
+msgid "1+ Million"
+msgstr "بیش از یک میلیون"
+
+#: inc/admin/class-lp-plugin-install-list-table.php:500
+msgid "%s Active Installs"
+msgstr "%s نصب فعال"
+
+#: inc/admin/settings/class-lp-settings-courses.php:73
+#: inc/admin/settings/class-lp-settings-emails.php:64
+#: inc/admin/settings/class-lp-settings-general.php:16
+#: inc/admin/settings/class-lp-settings-payments.php:53
+#: inc/admin/settings/class-lp-settings-profile.php:59
+#: inc/admin/sub-menus/class-lp-submenu-statistics.php:26
+#: inc/admin/views/meta-boxes/course/settings.php:22
+#: inc/user/class-lp-profile.php:279
+msgid "General"
+msgstr "عمومی"
+
+#: inc/admin/class-lp-setup-wizard.php:227
+msgid "Pages"
+msgstr "برگه‌ها"
+
+#: inc/admin/settings/class-lp-settings-payments.php:24
+#: inc/admin/settings/class-lp-settings-payments.php:120
+msgid "Payments"
+msgstr "درگاه‌های پرداخت"
+
+#: inc/admin/class-lp-admin.php:242 inc/admin/class-lp-admin.php:306
+#: inc/admin/views/setup/steps/pages.php:40
+msgid "Checkout"
+msgstr "تسویه حساب"
+
+#: inc/admin/settings/class-lp-settings-general.php:85
+#: inc/admin/settings/class-lp-settings-general.php:90
+#: inc/admin/views/setup/setup-paypal.php:28
+#: inc/admin/views/setup/steps/currency.php:17
+#: inc/admin/views/setup/steps/currency.php:21
+msgid "Currency"
+msgstr "واحد پولی"
+
+#: inc/admin/settings/class-lp-settings-general.php:98
+#: inc/admin/views/setup/steps/currency.php:37
+msgid "Currency position"
+msgstr "محل واحد مالی"
+
+#: inc/admin/views/setup/steps/currency.php:51
+msgid "Thousands Separator"
+msgstr "جداکننده هزارگان"
+
+#: inc/admin/views/setup/steps/currency.php:56
+msgid "Decimals Separator"
+msgstr "جداکننده اعشاری"
+
+#: inc/admin/views/setup/steps/currency.php:61
+msgid "Number of Decimals"
+msgstr "تعداد اعشارها"
+
+#: inc/admin/lp-admin-functions.php:264
+#: inc/admin/meta-box/fields/select-page.php:24
+msgid "Select a page&hellip;"
+msgstr "یک برگه انتخاب کنید&hellip;"
+
+#: inc/admin/views/meta-boxes/order/details.php:27
+msgid "Order %s"
+msgstr "سفارش %s"
+
+#: inc/admin/settings/class-lp-settings-advanced.php:110
+#: inc/admin/views/setup/setup-stripe.php:3
+msgid "Enable"
+msgstr "فعال"
+
+#: inc/admin/class-lp-plugin-install-list-table.php:406
+msgctxt "plugin"
+msgid "Enable"
+msgstr "فعال"
+
+#: inc/elementor/widgets/become-a-teacher.php:11
+msgid "Become a teacher"
+msgstr "مدرس شوید"
+
+#: inc/admin/views/meta-boxes/order/details.php:266
+msgid "No results"
+msgstr "نتیجه‌ای پیدا نشد"
+
+#: inc/admin/lp-admin-functions.php:223
+msgid "[ Add a new page ]"
+msgstr "[ افزودن برگه‌ی جدید ]"
+
+#: inc/admin/views/meta-boxes/order/details.php:143
+msgid "Customer Note"
+msgstr "یاداشت مشتری"
+
+#. translators: 1: Plugin name and version.
+#: inc/admin/class-lp-plugin-install-list-table.php:390
+msgid "Install and Active"
+msgstr "نصب و فعال‌سازی"
+
+#: inc/admin/class-lp-upgrader.php:14
+msgid "Invalid Data provided."
+msgstr "داده‌های نامعتبر ارائه شده است."
+
+#: inc/admin/lp-admin-functions.php:1465
+msgid "Free Courses / Priced Courses"
+msgstr "دوره‌های آموزشی رایگان / دوره‌های آموزشی پولی"
+
+#: inc/lp-core-functions.php:2396
+msgid "Using AJAX to add course to cart."
+msgstr "استفاده از تکنولوژی AJAX برای اضافه کردن دوره به سبد خرید"
+
+#: inc/admin/class-lp-upgrader.php:18
+msgid "Unable to locate WordPress Content directory (wp-content)."
+msgstr "قادر به پیدا کردن دایرکتوری محتوای وردپرس (wp-content) نیست."
+
+#: inc/admin/class-lp-upgrader.php:19
+msgid "Unable to locate WordPress Plugin directory."
+msgstr "قادر به پیدا کردن دایرکتوری افزونه وردپرس نیست."
+
+#: inc/admin/class-lp-upgrader.php:20
+msgid "Unable to locate WordPress Theme directory."
+msgstr "قادر به پیدا کردن دایرکتوری پوسته وردپرس نیست."
+
+#. translators: %s: directory name
+#: inc/admin/class-lp-upgrader.php:22
+msgid "Unable to locate necessary folder (%s)."
+msgstr "قادر به پیدا کردن پوشه مورد نیاز نیست (%s)."
+
+#: inc/admin/class-lp-upgrader.php:17
+msgid "Unable to locate WordPress Root directory."
+msgstr "قادر به پیدا کردن دایرکتوری ریشه وردپرس نیست."
+
+#: inc/admin/meta-box/fields/course-permalink.php:80
+msgid "Custom Base"
+msgstr "پایه سفارشی"
+
+#: inc/admin/sub-menus/class-lp-submenu-settings.php:19
+msgid "LearnPress Settings"
+msgstr "تنظیمات لرن‌پرس"
+
+#: inc/admin/settings/class-lp-settings-emails.php:25
+#: inc/admin/settings/class-lp-settings-emails.php:165
+msgid "Emails"
+msgstr "ایمیل‌"
+
+#: inc/admin/meta-box/fields/course-permalink.php:37
+msgid "Courses base with category"
+msgstr "پایه دوره‌ها با دسته‌بندی"
+
+#: inc/admin/meta-box/fields/course-permalink.php:32
+msgid "Courses base"
+msgstr "پایه دوره‌ها"
+
+#: inc/emails/class-lp-email.php:1038
+msgid "Recipient(s)"
+msgstr "گیرنده(ها)"
+
+#: inc/admin/settings/class-lp-settings-courses.php:29
+#: inc/custom-post-types/course.php:120
+msgctxt "slug"
+msgid "courses"
+msgstr "courses"
